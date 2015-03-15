@@ -2,3 +2,4 @@ tmp_*.m
 *.mat
 *.pdf
 *.asv
+computeError.m
