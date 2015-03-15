@@ -3,3 +3,4 @@ tmp_*.m
 *.pdf
 *.asv
 computeError.m
+*.bin
