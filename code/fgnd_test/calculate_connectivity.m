@@ -55,9 +55,10 @@ for indx_i=1:num_neuron
     end
 end
 
-sig_en_part     = data(recon_P+1:N, num_en);
-sig_st_part     = zeros(N-recon_P, recon_P);
-for indx_i=1:N-recon_P
+sig_en_part     = data(recon_P+2:N, num_en);
+len_st_part     = N - recon_P - 1;
+sig_st_part     = zeros(len_st_part, recon_P);
+for indx_i=1:len_st_part
     sig_st_part(indx_i, :)     = data(indx_i:indx_i+recon_P-1, num_st)';
 end
 
@@ -96,10 +97,16 @@ f_23_cal    = fft(l_reg_cal);
 % con_new     = con_new(1:recon_P);
 
 con_new             = zeros(recon_P, 1);
-con_new(1:P)        = connectivity_o(num_en, num_st,:);
+% con_new(1:P)        = connectivity_o(num_en, num_st,:);
 tmp_con             = conv(reshape(connectivity_o(num_en, 2, :), P, 1), reshape(connectivity_o(2, num_st, :), P, 1));
 
 con_new             = con_new + tmp_con;
+
+subplot(2,1,1);
+diff_tmp            = reg_cal - con_new;
+plot(diff_tmp(1:P+2));
+subplot(2,1,2);
+plot(reshape(connectivity_o(num_en, num_st,:), P, 1));
 
 % recon_errors        = sum(abs(con_new   - con_ifft))/sum(abs(con_new));
 
@@ -114,7 +121,11 @@ con_new             = con_new + tmp_con;
 % disp(mean(abs(con_new - reg_cal)));
 
 recon_errors    = sum(abs(con_new - reg_cal))/sum(abs(reg_cal))/recon_P*P;
+% recon_errors    = sum(abs(reg_cal));
 % fprintf('sum of reg_cal:%f\n', sum(abs(reg_cal)));
+% fprintf('sum of con_new:%f\n', sum(abs(con_new)));
+% disp(reg_cal')
+% disp(con_new')
 
 % reg_real    = l_connectivity_o(num_en, num_st, :);
 % reg_real    = reg_real(:);

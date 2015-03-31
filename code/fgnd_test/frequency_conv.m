@@ -14,6 +14,19 @@ l_conv_yz(1:conv_len)   = conv_yz;
 sig_y       = conv(sig_x, conv_xy);
 sig_z       = conv(sig_y, conv_yz);
 
+sig_z_new   = conv(sig_x, conv(conv_xy, conv_yz));
+
+sig_z_for_reg   = sig_z(conv_len*2-1:time_len-1);
+sig_x_for_reg   = zeros(time_len - conv_len*2 +1, conv_len*2-1);
+for idx_i=1:time_len - conv_len*2 +1
+    sig_x_for_reg(idx_i, :)     = sig_x(idx_i:idx_i+conv_len*2-2);
+end
+
+[reg_cal, BINT, R_cal]  = regress(sig_z_for_reg', sig_x_for_reg);
+reg_cal     = reg_cal(end:-1:1);
+disp(sum(abs(reg_cal' - conv(conv_xy, conv_yz)))/sum(abs(conv(conv_xy, conv_yz))));
+disp(sum(abs(R_cal))/sum(abs(sig_z)));
+
 sig_y       = sig_y(1:time_len);
 sig_z       = sig_z(1:time_len);
 
@@ -39,6 +52,7 @@ disp(mean(abs(r_conv_xz)));
 disp(mean(abs(r_conv_xy - f_conv_xy)));
 disp(mean(abs(r_conv_yz - f_conv_yz)));
 disp(mean(abs(r_conv_xz - f_conv_xz)));
+disp(sum(abs(sig_z_new(1:time_len) - sig_z(1:time_len)))/sum(abs(sig_z)));
 
 
 
