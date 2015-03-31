@@ -1,20 +1,29 @@
-function recon_errors = calculate_connectivity()
+function recon_errors = calculate_connectivity(params)
 
-clear
 close all
 
-load data_frequency
-
 % disp(configuration);
+
+N               = params.N;
+P               = params.P;
+gamma           = params.gamma;
+configuration   = params.configuration;
+recon_P         = params.recon_P;
+watch_len       = params.watch_len;
+data            = params.data;
+arSig           = params.arSig;
+arNoise         = params.arNoise;
+x_sig           = params.x_sig;
+x_noise         = params.x_noise;
+sigLevel        = params.sigLevel;
+noiseLevel      = params.noiseLevel;
+num_st          = params.num_st;
+num_en          = params.num_en;
+
 num_neuron      = length(configuration);
 connectivity_o  = zeros(num_neuron, num_neuron, P);
-watch_len       = 1500;
-
-recon_P         = 2*P-1;
 
 data    = data';
-% disp(size(data));
-% disp(size(x_sig));
 fft_all_data    = zeros(size(data));
 for indx_i=1:num_neuron
     fft_all_data(indx_i, :)  = fft(data(indx_i,:));
@@ -45,9 +54,6 @@ for indx_i=1:num_neuron
         f_connectivity(indx_i, indx_j, :)  = fft(l_connectivity_o(indx_i, indx_j, :));
     end
 end
-
-num_st  = 2;
-num_en  = 1;
 
 sig_en_part     = data(recon_P+1:N, num_en);
 sig_st_part     = zeros(N-recon_P, recon_P);
@@ -85,12 +91,17 @@ f_23_cal    = fft(l_reg_cal);
 % plot(abs(f_23_real));
 
 % con_new     = real(ifft(f_23_real));
+% con_ifft    = real(ifft(f_23_real));
+% con_ifft    = con_ifft(1:recon_P);
+% con_new     = con_new(1:recon_P);
 
 con_new             = zeros(recon_P, 1);
 con_new(1:P)        = connectivity_o(num_en, num_st,:);
 tmp_con             = conv(reshape(connectivity_o(num_en, 2, :), P, 1), reshape(connectivity_o(2, num_st, :), P, 1));
 
 con_new             = con_new + tmp_con;
+
+% recon_errors        = sum(abs(con_new   - con_ifft))/sum(abs(con_new));
 
 % disp(sum(abs(l_connectivity_o(2,3,:))));
 % disp(mean(abs(f_23_cal)));
@@ -102,8 +113,8 @@ con_new             = con_new + tmp_con;
 % disp(con_new');
 % disp(mean(abs(con_new - reg_cal)));
 
-recon_errors    = sum(abs(con_new - reg_cal))/sum(abs(reg_cal));
-fprintf('sum of reg_cal:%f\n', sum(abs(reg_cal)));
+recon_errors    = sum(abs(con_new - reg_cal))/sum(abs(reg_cal))/recon_P*P;
+% fprintf('sum of reg_cal:%f\n', sum(abs(reg_cal)));
 
 % reg_real    = l_connectivity_o(num_en, num_st, :);
 % reg_real    = reg_real(:);

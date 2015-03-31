@@ -1,4 +1,4 @@
-function [data, arSig, arNoise, x_sig, x_noise, sigLevel, noiseLevel]=simulateOneRun(N,P,gamma,configuraton)
+function [data, arSig, arNoise, x_sig, x_noise, sigLevel, noiseLevel]=simulateOneRun(N,P,gamma,configuraton, params)
 %Generates one sample for the causality challenge
 %
 % Input:
@@ -73,9 +73,14 @@ while ~done
         
 %         x=zeros(M,N);
 %         x(:,1:P)=randn(M,P);
-        x   = zeros(M, N);
-        x(3, :)     = randn(1, N);
-%         x   = randn(M,N);
+%         x   = zeros(M, N);
+%         x(3, :)     = randn(1, N);
+        x   = zeros(M,N);
+        for indx_i=1:M
+            if params.innovation(indx_i)==1
+                x(indx_i, :)    = randn(1, N);
+            end
+        end
         
         x_sig   = x;
         dataSignal=mymvfilter(arSig,x)';
