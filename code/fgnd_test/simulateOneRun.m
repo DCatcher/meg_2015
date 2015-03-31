@@ -1,4 +1,4 @@
-function data=simulateOneRun(N,P,gamma,configuraton)
+function [data, arSig, arNoise, x_sig, x_noise, sigLevel, noiseLevel]=simulateOneRun(N,P,gamma,configuraton)
 %Generates one sample for the causality challenge
 %
 % Input:
@@ -37,13 +37,15 @@ sSignal=1-gamma;
 sNoise=gamma;
 
 done=false;
+try_time    = 0;
+small_control   = 2.2;
 
 while ~done
     
     arSig=zeros(M,M*P);
     for k=1:P
 
-        aloc=(rand(M)-.5)/2.2;
+        aloc=(rand(M)-.5)/small_control;
         arSig(:,(k-1)*M+(1:M))=aloc.*configuraton';
 
     end
@@ -55,7 +57,7 @@ while ~done
     arNoise=zeros(M,M*P);
     for k=1:P;
 
-        aloc=diag(diag((rand(M)-.5)/2.2));
+        aloc=diag(diag((rand(M)-.5)/small_control));
         arNoise(:,(k-1)*M+(1:M))=aloc;
 
     end
@@ -64,13 +66,25 @@ while ~done
     Anoise=[arNoise;E(1:end-M,:)];
     lambdaMaxNoise=max(abs(eig(Anoise)));
     
+    try_time    = try_time + 1;
+    fprintf('try time:%i, lambdaMax:%f, lambdaMax_Noise:%f.\n',try_time, lambdaMax, lambdaMaxNoise);
+    
     if lambdaMax<.95 && lambdaMaxNoise<.95;
         
-        x=randn(M,N);
+%         x=zeros(M,N);
+%         x(:,1:P)=randn(M,P);
+        x   = zeros(M, N);
+        x(3, :)     = randn(1, N);
+%         x   = randn(M,N);
+        
+        x_sig   = x;
         dataSignal=mymvfilter(arSig,x)';
         sigLevel=norm(dataSignal,'fro');
 
-        x=randn(M,N);
+%         x=zeros(M,N);
+%         x(:,1:P)=randn(M,P);
+        x   = randn(M,N);
+        x_noise     = x;
         dataNoise=mymvfilter(arNoise,x)'*randn(M);
         noiseLevel=norm(dataNoise,'fro');
 
