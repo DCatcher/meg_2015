@@ -92,6 +92,10 @@ all_ave_last    = zeros(num_neuron, N);
 
 all_error       = [];
 
+all_standrad    = [];
+
+watch_sum       = [];
+
 if params.mode==0
 
     tic;
@@ -125,15 +129,22 @@ if params.mode==0
             
             f_ori_tmp   = G(indx_i,indx_j, :);
             f_com_tmp   = A_tmp_inv(1,2, :);
+            sum_ori_tmp     = sum(abs(f_ori_tmp));
+            sum_com_tmp     = sum(abs(f_com_tmp));
             if sum(abs(f_ori_tmp))>params.delta
-                all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum(abs(f_ori_tmp));
+                all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum_ori_tmp;
                 if all_error(end)>1
-                    fprintf('error num:%i, %i, %f, %f\n', indx_i, indx_j, sum(abs(f_ori_tmp)), sum(abs(f_com_tmp)));
+                    fprintf('error num:%i, %i, %f, %f\n', indx_i, indx_j, sum_ori_tmp, sum_com_tmp);
                 else
-                    fprintf('standard connection:%f, error now:%f\n', sum(abs(f_ori_tmp)), all_error(end));
+                    fprintf('standard connection:%f, error now:%f\n', sum_ori_tmp, all_error(end));
+                    all_standrad(end+1)     = sum_ori_tmp;
                 end              
             else
-                fprintf('error num:%i, %i, %f\n', indx_i, indx_j, sum(abs(f_com_tmp)));
+                fprintf('error num:%i, %i, %f\n', indx_i, indx_j, sum_com_tmp);
+            end
+            
+            if indx_i==params.num_st && indx_j==params.num_en
+                watch_sum(end+1)    = sum_com_tmp;
             end
 %             if sum(abs(f_com_tmp))==Inf
 %                 fprintf('error num:%i, %i\n', indx_i, indx_j);
@@ -144,17 +155,30 @@ if params.mode==0
 
             f_ori_tmp   = G(indx_j,indx_i, :);
             f_com_tmp   = A_tmp_inv(2,1, :);
+            
+            sum_ori_tmp     = sum(abs(f_ori_tmp));
+            sum_com_tmp     = sum(abs(f_com_tmp));
             if sum(abs(f_ori_tmp))>params.delta
-                all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum(abs(f_ori_tmp));
+                all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum_ori_tmp;
                 if all_error(end)>1
-                    fprintf('error num:%i, %i, %f, %f\n', indx_j, indx_i, sum(abs(f_ori_tmp)), sum(abs(f_com_tmp)));
+                    if params.report_mode==1
+                        fprintf('error num:%i, %i, %f, %f\n', indx_j, indx_i, sum_ori_tmp, sum_com_tmp);
+                    end
                 else
-                    fprintf('standard connection:%f, error now:%f\n', sum(abs(f_ori_tmp)), all_error(end));
+                    if params.report_mode==1
+                        fprintf('standard connection:%f, error now:%f\n', sum_ori_tmp, all_error(end));
+                    end
+                    all_standrad(end+1)     = sum_ori_tmp;
                 end
             else
-                fprintf('error num:%i, %i, %f\n', indx_j, indx_i, sum(abs(f_com_tmp)));
+                if params.report_mode==1
+                    fprintf('error num:%i, %i, %f\n', indx_j, indx_i, sum_com_tmp);
+                end
             end
             
+            if indx_i==params.num_st && indx_j==params.num_en
+                watch_sum(end+1)    = sum_com_tmp;
+            end
 %             if sum(abs(f_com_tmp))==Inf
 %                 fprintf('error num:%i, %i\n', indx_i, indx_j);
 %             end
@@ -168,15 +192,24 @@ if params.mode==0
         f_ori_tmp   = reshape(G(indx_i,indx_i, :), 1, N);
         f_com_tmp   = all_ave(indx_i, :)/all_ave_num(indx_i);
 
+        sum_ori_tmp     = sum(abs(f_ori_tmp));
+        sum_com_tmp     = sum(abs(f_com_tmp));
+        
         if sum(abs(f_ori_tmp))>params.delta
-            all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum(abs(f_ori_tmp));
+            all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum_ori_tmp;
             if all_error(end)>1
-                fprintf('error num:%i\n', indx_i);
+                if params.report_mode==1
+                    fprintf('error num:%i\n', indx_i);
+                end
             else
-                fprintf('standard connection:%f, error now:%f\n', sum(abs(f_ori_tmp)), all_error(end));
+                if params.report_mode==1
+                    fprintf('standard self connection:%f, error now:%f\n', sum_ori_tmp, all_error(end));
+                end
             end         
         else
-            fprintf('error num:%i, %i, %f\n', indx_i, indx_j, sum(abs(f_com_tmp)));
+            if params.report_mode==1
+                fprintf('error num:%i, %i, %f\n', indx_i, indx_j, sum_com_tmp);
+            end
         end
         
 %         if sum(abs(f_com_tmp))==Inf
@@ -187,7 +220,11 @@ if params.mode==0
 %         end        
     end
 
-    recon_errors    = mean(all_error);
+    if params.watch_error_mode==0
+        recon_errors    = mean(all_error);
+    else
+        recon_errors    = mean(watch_sum)/mean(all_standrad);
+    end
 
     toc;
 else
@@ -203,16 +240,34 @@ else
             f_ori_tmp   = reshape(A(indx_j,indx_i, :), 1, N);
             f_com_tmp   = A_tmp(indx_j, :);
             
+            sum_ori_tmp     = sum(abs(f_ori_tmp));
+            sum_com_tmp     = sum(abs(f_com_tmp));
+            
             reg_new_test    = MVAR_ml_oneless(data, N, recon_P, indx_i, indx_j);
             if sum(abs(f_ori_tmp))> params.delta
-                all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum(abs(f_ori_tmp));
-                fprintf('nrror num:%i, %i, %f, error new:%f\n', indx_i, indx_j, sum(abs(f_com_tmp)), reg_new_test/MVAR_error);
+                all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum_ori_tmp;
+                if params.report_mode==1
+                    fprintf('nrror num:%i, %i, %f, error new:%f\n', indx_i, indx_j, sum_com_tmp, reg_new_test/MVAR_error);
+                end
+                
+                all_standrad(end+1)     = sum_ori_tmp;
             else
-                fprintf('error num:%i, %i, %f, error new:%f\n', indx_i, indx_j, sum(abs(f_com_tmp)), reg_new_test/MVAR_error);
+                if params.report_mode==1
+                    fprintf('error num:%i, %i, %f, error new:%f\n', indx_i, indx_j, sum_com_tmp, reg_new_test/MVAR_error);
+                end
+            end
+            
+            if (indx_i==params.num_st && indx_j==params.num_en) || (indx_j==params.num_st && indx_i==params.num_en)
+                watch_sum(end+1)    = sum_com_tmp;
             end
         end
     end
-    recon_errors    = mean(all_error);
+    
+    if params.watch_error_mode==0
+        recon_errors    = mean(all_error);
+    else
+        recon_errors    = mean(watch_sum)/mean(all_standrad);
+    end
     toc
 end    
 % 
