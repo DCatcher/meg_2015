@@ -1,0 +1,77 @@
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [25x25 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+             mode: 0
+       diary_name: 'logs/log_2015     4    14    14    43    14.txt'
+
+test time:1, error now:0.000000
+indx pair: 1
+indx pair: 2
+indx pair: 3
+indx pair: 4
+indx pair: 5
+indx pair: 6
+indx pair: 7
+indx pair: 8
+indx pair: 9
+indx pair: 10
+indx pair: 11
+indx pair: 12
+indx pair: 13
+indx pair: 14
+indx pair: 15
+indx pair: 16
+indx pair: 17
+indx pair: 18
+indx pair: 19
+indx pair: 20
+indx pair: 21
+indx pair: 22
+indx pair: 23
+indx pair: 24
+indx pair: 25
+Elapsed time is 70.567382 seconds.
+test time:2, error now:0.773441
+indx pair: 1
+indx pair: 2
+indx pair: 3
+indx pair: 4
+indx pair: 5
+indx pair: 6
+indx pair: 7
+indx pair: 8
+indx pair: 9
+indx pair: 10
+indx pair: 11
+indx pair: 12
+indx pair: 13
+indx pair: 14
+indx pair: 15
+indx pair: 16
+indx pair: 17
+indx pair: 18
+indx pair: 19
+indx pair: 20
+indx pair: 21
+indx pair: 22
+indx pair: 23
+indx pair: 24
+indx pair: 25
+Elapsed time is 71.348339 seconds.
+test time:3, error now:1.037877
+indx pair: 1
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 108)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',108,0)">line 108</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 36)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',36,0)">line 36</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+close all
+close all
+cal_simu_combine

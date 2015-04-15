@@ -1,0 +1,105 @@
+    small_control: 4
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [25x25 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+             mode: 0
+      report_mode: 1
+       diary_name: 'logs/log_2015     4    14    15    14    43.txt'
+
+indx pair: 1
+error num:1, 3, 218.976187, 650.534448
+error num:1, 6, 161.534160, 582.814767
+error num:1, 7, 328.601979, 791.393141
+error num:1, 8, 346.929912, 691.102226
+error num:1, 11, 121.530180, 592.115071
+error num:1, 14, 149.918026, 635.061745
+error num:1, 17, 78.699438, 461.474896
+error num:1, 18, 309.856867, 614.086165
+error num:1, 19, 303.316199, 652.452544
+error num:1, 23, 88.382506, 549.771036
+error num:1, 24, 286.954551, 540.443437
+error num:1, 25, 122.486618, 544.202801
+indx pair: 2
+error num:2, 3, 232.155135, 460.517812
+error num:2, 5, 261.045158, 547.013751
+error num:2, 7, 88.224837, 382.770627
+error num:2, 10, 30.701356, 444.231416
+error num:2, 11, 88.217466, 380.714659
+error num:2, 12, 80.156912, 500.435254
+error num:2, 13, 83.153663, 311.627735
+error num:2, 15, 140.891558, 474.563633
+error num:2, 18, 68.688531, 440.635485
+error num:2, 19, 103.870647, 500.533043
+error num:2, 20, 62.038255, 475.051980
+error num:2, 21, 98.319203, 470.579424
+error num:2, 22, 44.059040, 378.800695
+error num:2, 23, 75.871834, 397.422483
+error num:2, 24, 221.800688, 466.378965
+error num:2, 25, 141.192526, 544.005902
+indx pair: 3
+error num:3, 4, 187.182915, 462.359180
+error num:3, 7, 403.340339, 890.418514
+error num:3, 8, 159.290020, 582.895047
+error num:3, 11, 62.950516, 481.873936
+error num:3, 14, 131.198369, 566.605253
+error num:3, 16, 274.933044, 602.308995
+error num:3, 17, 90.046750, 482.563025
+error num:3, 18, 259.632935, 671.412729
+error num:3, 19, 347.691680, 684.222813
+error num:3, 21, 170.643959, 767.952087
+error num:3, 24, 232.131616, 489.996806
+error num:3, 25, 256.392710, 548.786578
+indx pair: 4
+error num:4, 6, 261.348442, 638.513811
+error num:4, 7, 104.700922, 461.078337
+error num:4, 8, 129.797151, 568.293307
+error num:4, 9, 248.660123, 650.523142
+error num:4, 10, 124.090001, 596.966482
+error num:4, 11, 249.764950, 514.937279
+error num:4, 12, 95.669353, 680.642815
+error num:4, 13, 263.836214, 552.501782
+error num:4, 14, 148.957431, 568.083936
+error num:4, 16, 328.798079, 664.925322
+error num:4, 17, 71.910777, 382.843496
+error num:4, 18, 112.599280, 504.868575
+error num:4, 19, 196.963234, 496.108647
+error num:4, 20, 139.556429, 557.593263
+error num:4, 22, 214.268191, 623.040179
+error num:4, 23, 331.326209, 627.875773
+indx pair: 5
+error num:5, 7, 434.705957, 822.642809
+error num:5, 8, 386.189336, 775.859019
+error num:5, 9, 293.416587, 637.585270
+error num:5, 10, 403.679496, 733.317386
+error num:5, 11, 269.690370, 706.511103
+error num:5, 13, 307.157580, 621.517702
+error num:5, 17, 284.522899, 634.155016
+error num:5, 19, 359.168140, 703.935719
+error num:5, 25, 344.300022, 657.898548
+indx pair: 6
+error num:6, 9, 350.969558, 739.628922
+error num:6, 10, 260.762348, 643.665713
+error num:6, 12, 217.321296, 619.543959
+error num:6, 13, 337.037483, 706.550920
+error num:6, 18, 128.263261, 616.763030
+error num:6, 19, 145.261496, 487.258288
+error num:6, 20, 214.611260, 710.085386
+error num:6, 22, 293.884414, 645.539716
+indx pair: 7
+error num:7, 9, 282.145468, 542.433808
+error num:7, 11, 74.165776, 567.207344
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 110)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',110,0)">line 110</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 37)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',37,0)">line 37</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+close all
+clc
+cal_simu_combine

@@ -1,0 +1,58 @@
+    small_control: 3
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [3x3 double]
+          recon_P: 11
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1]
+             mode: 0
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    15    14    20    16.txt'
+
+     1     0     1
+     1     1     1
+     0     0     1
+
+indx pair: 1
+error num:1, 2, 240.845537
+standard connection:906.452014, error now:0.243811
+standard connection:1400.104297, error now:0.102417
+error num:3, 1, 291.987095
+indx pair: 2
+standard connection:1801.447991, error now:0.108514
+error num:3, 2, 232.231152
+indx pair: 3
+standard connection:6198.494538, error now:0.024580
+standard connection:6144.849332, error now:0.019378
+standard connection:6142.016289, error now:0.042470
+Elapsed time is 0.434569 seconds.
+test time:1, error now:0.090195
+indx pair: 1
+error num:1, 2, 204.285964
+standard connection:1624.010328, error now:0.081731
+standard connection:1716.870953, error now:0.133378
+error num:3, 1, 264.029192
+indx pair: 2
+standard connection:1730.963650, error now:0.103616
+error num:3, 2, 206.374454
+indx pair: 3
+standard connection:6229.413899, error now:0.033464
+standard connection:6117.542796, error now:0.025317
+standard connection:6127.389260, error now:0.027748
+Elapsed time is 0.398586 seconds.
+test time:2, error now:0.078869
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('simulateOneRun>mymvfilter', 'd:\matlab2012a\meg\code\fgnd_test\code_22\simulateOneRun.m', 123)" style="font-weight:bold">simulateOneRun>mymvfilter</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\simulateOneRun.m',123,0)">line 123</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('simulateOneRun', 'd:\matlab2012a\meg\code\fgnd_test\code_22\simulateOneRun.m', 95)" style="font-weight:bold">simulateOneRun</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\simulateOneRun.m',95,0)">line 95</a>)
+        dataNoise=mymvfilter(arNoise,x)'*randn(M);
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 45)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',45,0)">line 45</a>)
+    [params.data, params.arSig, params.arNoise, params.x_sig, params.x_noise, params.sigLevel,
+    params.noiseLevel]=simulateOneRun(params.N, params.P, params.gamma, params.configuration, params);
+} 
+cal_simu_combine

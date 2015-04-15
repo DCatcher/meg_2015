@@ -1,0 +1,101 @@
+    small_control: 3
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [4x4 double]
+          recon_P: 11
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1]
+             mode: 0
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    15    15    19    11.txt'
+
+     1     0     0     0
+     1     1     0     1
+     1     0     1     1
+     0     0     0     1
+
+indx pair: 1
+error num:1, 2, 222.448501
+standard connection:1736.194372, error now:0.091608
+error num:1, 3, 208.342101
+standard connection:1778.602081, error now:0.102072
+error num:1, 4, 462.081925
+error num:4, 1, 400.294002
+indx pair: 2
+error num:2, 3, 240.572006
+error num:3, 2, 202.898962
+standard connection:1838.132894, error now:0.041585
+error num:4, 2, 156.454934
+indx pair: 3
+standard connection:1801.817872, error now:0.117618
+error num:4, 3, 110.309286
+indx pair: 4
+standard connection:6100.899459, error now:0.052052
+standard connection:6148.601756, error now:0.017010
+standard connection:6129.373004, error now:0.025850
+standard connection:6155.129692, error now:0.036763
+Elapsed time is 0.840597 seconds.
+test time:1, error now:0.060570
+indx pair: 1
+error num:1, 2, 240.347911
+standard connection:1565.148569, error now:0.119209
+error num:1, 3, 167.529332
+standard connection:1608.757749, error now:0.128451
+error num:1, 4, 416.620338
+error num:4, 1, 572.888913
+indx pair: 2
+error num:2, 3, 218.400679
+error num:3, 2, 261.068710
+standard connection:2176.109863, error now:0.104585
+error num:4, 2, 204.996284
+indx pair: 3
+standard connection:1280.230479, error now:0.099913
+error num:4, 3, 164.162407
+indx pair: 4
+standard connection:6125.377668, error now:0.038730
+standard connection:6175.953249, error now:0.018368
+standard connection:6124.367764, error now:0.026326
+standard connection:6134.769786, error now:0.053818
+Elapsed time is 0.840704 seconds.
+test time:2, error now:0.067122
+indx pair: 1
+error num:1, 2, 211.432531
+standard connection:1469.638176, error now:0.074583
+error num:1, 3, 139.096294
+standard connection:1815.625107, error now:0.107996
+error num:1, 4, 478.473134
+error num:4, 1, 461.522630
+indx pair: 2
+error num:2, 3, 318.847895
+error num:3, 2, 223.834104
+standard connection:1588.130926, error now:0.084583
+error num:4, 2, 135.482927
+indx pair: 3
+standard connection:1784.584297, error now:0.073021
+error num:4, 3, 216.173280
+indx pair: 4
+standard connection:6180.766737, error now:0.041169
+standard connection:6104.733146, error now:0.025744
+standard connection:6203.890392, error now:0.024069
+standard connection:6135.271277, error now:0.041758
+Elapsed time is 0.820966 seconds.
+test time:3, error now:0.064453
+indx pair: 1
+error num:1, 2, 201.690281
+standard connection:1875.501372, error now:0.138286
+error num:1, 3, 200.781904
+standard connection:1704.335645, error now:0.133944
+error num:1, 4, 517.705423
+error num:4, 1, 538.619592
+indx pair: 2
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 110)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',110,0)">line 110</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 47)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',47,0)">line 47</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+cal_simu_combine

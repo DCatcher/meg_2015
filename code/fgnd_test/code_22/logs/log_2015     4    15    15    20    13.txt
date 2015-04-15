@@ -1,0 +1,462 @@
+    small_control: 3
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [4x4 double]
+          recon_P: 11
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1]
+             mode: 0
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    15    15    20    13.txt'
+
+     1     0     0     0
+     1     1     0     1
+     1     0     1     1
+     0     0     0     1
+
+indx pair: 1
+error num:1, 2, 222.448501
+standard connection:1736.194372, error now:0.091608
+error num:1, 3, 208.342101
+standard connection:1778.602081, error now:0.102072
+error num:1, 4, 462.081925
+error num:4, 1, 400.294002
+indx pair: 2
+error num:2, 3, 240.572006
+error num:3, 2, 202.898962
+standard connection:1838.132894, error now:0.041585
+error num:4, 2, 156.454934
+indx pair: 3
+standard connection:1801.817872, error now:0.117618
+error num:4, 3, 110.309286
+indx pair: 4
+standard connection:6100.899459, error now:0.052052
+standard connection:6148.601756, error now:0.017010
+standard connection:6129.373004, error now:0.025850
+standard connection:6155.129692, error now:0.036763
+Elapsed time is 0.831840 seconds.
+test time:1, error now:0.060570
+indx pair: 1
+error num:1, 2, 240.347911
+standard connection:1565.148569, error now:0.119209
+error num:1, 3, 167.529332
+standard connection:1608.757749, error now:0.128451
+error num:1, 4, 416.620338
+error num:4, 1, 572.888913
+indx pair: 2
+error num:2, 3, 218.400679
+error num:3, 2, 261.068710
+standard connection:2176.109863, error now:0.104585
+error num:4, 2, 204.996284
+indx pair: 3
+standard connection:1280.230479, error now:0.099913
+error num:4, 3, 164.162407
+indx pair: 4
+standard connection:6125.377668, error now:0.038730
+standard connection:6175.953249, error now:0.018368
+standard connection:6124.367764, error now:0.026326
+standard connection:6134.769786, error now:0.053818
+Elapsed time is 0.838202 seconds.
+test time:2, error now:0.067122
+indx pair: 1
+error num:1, 2, 211.432531
+standard connection:1469.638176, error now:0.074583
+error num:1, 3, 139.096294
+standard connection:1815.625107, error now:0.107996
+error num:1, 4, 478.473134
+error num:4, 1, 461.522630
+indx pair: 2
+error num:2, 3, 318.847895
+error num:3, 2, 223.834104
+standard connection:1588.130926, error now:0.084583
+error num:4, 2, 135.482927
+indx pair: 3
+standard connection:1784.584297, error now:0.073021
+error num:4, 3, 216.173280
+indx pair: 4
+standard connection:6180.766737, error now:0.041169
+standard connection:6104.733146, error now:0.025744
+standard connection:6203.890392, error now:0.024069
+standard connection:6135.271277, error now:0.041758
+Elapsed time is 0.845683 seconds.
+test time:3, error now:0.064453
+indx pair: 1
+error num:1, 2, 201.690281
+standard connection:1875.501372, error now:0.138286
+error num:1, 3, 200.781904
+standard connection:1704.335645, error now:0.133944
+error num:1, 4, 517.705423
+error num:4, 1, 538.619592
+indx pair: 2
+error num:2, 3, 235.934788
+error num:3, 2, 266.911392
+standard connection:1939.157122, error now:0.081050
+error num:4, 2, 286.607985
+indx pair: 3
+standard connection:1808.996488, error now:0.090601
+error num:4, 3, 205.436219
+indx pair: 4
+standard connection:6102.209298, error now:0.054408
+standard connection:6146.980652, error now:0.022070
+standard connection:6085.265459, error now:0.025422
+standard connection:6197.391999, error now:0.041810
+Elapsed time is 0.862271 seconds.
+test time:4, error now:0.066702
+indx pair: 1
+error num:1, 2, 147.532684
+standard connection:1736.307668, error now:0.090609
+error num:1, 3, 170.265953
+standard connection:1335.622963, error now:0.090729
+error num:1, 4, 493.911365
+error num:4, 1, 359.008584
+indx pair: 2
+error num:2, 3, 229.185555
+error num:3, 2, 256.497661
+standard connection:1769.110733, error now:0.140145
+error num:4, 2, 238.696815
+indx pair: 3
+standard connection:2216.089902, error now:0.125611
+error num:4, 3, 208.033669
+indx pair: 4
+standard connection:6179.555490, error now:0.017645
+standard connection:6068.900152, error now:0.018768
+standard connection:6123.860814, error now:0.017771
+standard connection:6195.797376, error now:0.039150
+Elapsed time is 0.835301 seconds.
+test time:5, error now:0.066873
+indx pair: 1
+error num:1, 2, 205.424964
+standard connection:1374.573375, error now:0.118293
+error num:1, 3, 254.570632
+standard connection:1645.099635, error now:0.135119
+error num:1, 4, 326.106499
+error num:4, 1, 348.647450
+indx pair: 2
+error num:2, 3, 206.281626
+error num:3, 2, 245.064438
+standard connection:1439.043464, error now:0.084398
+error num:4, 2, 289.080661
+indx pair: 3
+standard connection:1395.933650, error now:0.111356
+error num:4, 3, 103.026252
+indx pair: 4
+standard connection:6257.633854, error now:0.039028
+standard connection:6220.062118, error now:0.030123
+standard connection:6165.947931, error now:0.027485
+standard connection:6055.622917, error now:0.039212
+Elapsed time is 0.813146 seconds.
+test time:6, error now:0.067915
+indx pair: 1
+error num:1, 2, 201.270583
+standard connection:1382.663464, error now:0.070236
+error num:1, 3, 152.707325
+standard connection:1737.489986, error now:0.081795
+error num:1, 4, 588.573699
+error num:4, 1, 568.438637
+indx pair: 2
+error num:2, 3, 198.286910
+error num:3, 2, 231.095210
+standard connection:2006.054088, error now:0.075372
+error num:4, 2, 247.383056
+indx pair: 3
+standard connection:1543.963235, error now:0.111191
+error num:4, 3, 245.697127
+indx pair: 4
+standard connection:6137.790857, error now:0.031768
+standard connection:6117.126659, error now:0.020007
+standard connection:6120.203491, error now:0.032658
+standard connection:6203.668064, error now:0.043228
+Elapsed time is 0.810599 seconds.
+test time:7, error now:0.066539
+indx pair: 1
+error num:1, 2, 164.406000
+standard connection:1473.747580, error now:0.163722
+error num:1, 3, 248.641512
+standard connection:1995.959051, error now:0.079769
+error num:1, 4, 398.499225
+error num:4, 1, 405.049049
+indx pair: 2
+error num:2, 3, 241.044158
+error num:3, 2, 212.993877
+standard connection:1540.950047, error now:0.145056
+error num:4, 2, 257.705256
+indx pair: 3
+standard connection:1626.503372, error now:0.127567
+error num:4, 3, 218.710197
+indx pair: 4
+standard connection:6173.440880, error now:0.038343
+standard connection:6127.601876, error now:0.024610
+standard connection:6145.357386, error now:0.040262
+standard connection:6153.650212, error now:0.032744
+Elapsed time is 0.825462 seconds.
+test time:8, error now:0.068410
+indx pair: 1
+error num:1, 2, 203.560257
+standard connection:1617.770526, error now:0.111422
+error num:1, 3, 242.379912
+standard connection:1641.040754, error now:0.104324
+error num:1, 4, 358.058715
+error num:4, 1, 460.451553
+indx pair: 2
+error num:2, 3, 325.608781
+error num:3, 2, 210.956166
+standard connection:1660.043561, error now:0.095964
+error num:4, 2, 227.832700
+indx pair: 3
+standard connection:1803.482942, error now:0.095069
+error num:4, 3, 237.028667
+indx pair: 4
+standard connection:6104.845828, error now:0.055759
+standard connection:6166.441172, error now:0.025558
+standard connection:6110.505593, error now:0.026975
+standard connection:6210.561988, error now:0.042244
+Elapsed time is 0.858888 seconds.
+test time:9, error now:0.068549
+indx pair: 1
+error num:1, 2, 292.203477
+standard connection:1810.307537, error now:0.079921
+error num:1, 3, 244.883365
+standard connection:1548.960227, error now:0.092162
+error num:1, 4, 334.128921
+error num:4, 1, 549.291817
+indx pair: 2
+error num:2, 3, 141.579140
+error num:3, 2, 249.011522
+standard connection:2103.034901, error now:0.067567
+error num:4, 2, 266.661783
+indx pair: 3
+standard connection:1612.412569, error now:0.087228
+error num:4, 3, 215.866437
+indx pair: 4
+standard connection:6072.662338, error now:0.034043
+standard connection:6319.714111, error now:0.027525
+standard connection:6113.807256, error now:0.039656
+standard connection:6123.887033, error now:0.055179
+Elapsed time is 0.830339 seconds.
+test time:10, error now:0.067735
+indx pair: 1
+error num:1, 2, 209.193151
+standard connection:1651.316113, error now:0.123247
+error num:1, 3, 158.085646
+standard connection:1803.043256, error now:0.083360
+error num:1, 4, 519.005139
+error num:4, 1, 378.591397
+indx pair: 2
+error num:2, 3, 294.264871
+error num:3, 2, 252.723891
+standard connection:2260.520207, error now:0.033880
+error num:4, 2, 133.150892
+indx pair: 3
+standard connection:1787.929627, error now:0.116244
+error num:4, 3, 232.259769
+indx pair: 4
+standard connection:6130.300045, error now:0.028019
+standard connection:6148.462536, error now:0.029592
+standard connection:6112.889323, error now:0.023902
+standard connection:6177.382945, error now:0.035561
+Elapsed time is 0.837687 seconds.
+test time:11, error now:0.066962
+indx pair: 1
+error num:1, 2, 162.987097
+standard connection:1686.278925, error now:0.132206
+error num:1, 3, 222.660871
+standard connection:1912.831578, error now:0.111760
+error num:1, 4, 545.132149
+error num:4, 1, 485.292944
+indx pair: 2
+error num:2, 3, 221.841612
+error num:3, 2, 209.763120
+standard connection:1532.175073, error now:0.140367
+error num:4, 2, 192.934535
+indx pair: 3
+standard connection:1751.397141, error now:0.151650
+error num:4, 3, 199.358841
+indx pair: 4
+standard connection:6174.252602, error now:0.043638
+standard connection:6132.123892, error now:0.022610
+standard connection:6140.758663, error now:0.032795
+standard connection:6119.669409, error now:0.031839
+Elapsed time is 0.828026 seconds.
+test time:12, error now:0.068328
+indx pair: 1
+error num:1, 2, 185.047523
+standard connection:2129.860794, error now:0.088020
+error num:1, 3, 195.344828
+standard connection:2169.777698, error now:0.065482
+error num:1, 4, 600.864705
+error num:4, 1, 595.531376
+indx pair: 2
+error num:2, 3, 251.266124
+error num:3, 2, 138.771503
+standard connection:1756.925455, error now:0.130115
+error num:4, 2, 200.370197
+indx pair: 3
+standard connection:1942.983443, error now:0.060077
+error num:4, 3, 239.002881
+indx pair: 4
+standard connection:6241.283494, error now:0.048805
+standard connection:6149.356231, error now:0.019668
+standard connection:6173.694698, error now:0.038302
+standard connection:6181.941620, error now:0.033378
+Elapsed time is 0.808580 seconds.
+test time:13, error now:0.067725
+indx pair: 1
+error num:1, 2, 232.890957
+standard connection:1409.251881, error now:0.105696
+error num:1, 3, 212.468752
+standard connection:1971.775365, error now:0.082901
+error num:1, 4, 663.549398
+error num:4, 1, 548.937235
+indx pair: 2
+error num:2, 3, 156.683734
+error num:3, 2, 287.491817
+standard connection:1756.789245, error now:0.100893
+error num:4, 2, 228.953172
+indx pair: 3
+standard connection:1800.809843, error now:0.051814
+error num:4, 3, 283.764116
+indx pair: 4
+standard connection:6473.518701, error now:0.053469
+standard connection:6190.095298, error now:0.021625
+standard connection:6115.008103, error now:0.023069
+standard connection:6123.087000, error now:0.037590
+Elapsed time is 0.840419 seconds.
+test time:14, error now:0.067147
+indx pair: 1
+error num:1, 2, 213.400836
+standard connection:1984.924322, error now:0.096106
+error num:1, 3, 170.110304
+standard connection:1978.174399, error now:0.081898
+error num:1, 4, 768.964237
+error num:4, 1, 907.227884
+indx pair: 2
+error num:2, 3, 222.665947
+error num:3, 2, 179.796644
+standard connection:1906.666531, error now:0.120335
+error num:4, 2, 130.149420
+indx pair: 3
+standard connection:1905.111229, error now:0.085935
+error num:4, 3, 174.197787
+indx pair: 4
+standard connection:6188.154354, error now:0.038240
+standard connection:6140.212791, error now:0.024808
+standard connection:6201.381353, error now:0.038479
+standard connection:6139.650426, error now:0.060466
+Elapsed time is 0.823157 seconds.
+test time:15, error now:0.067222
+indx pair: 1
+error num:1, 2, 224.396619
+standard connection:1506.648855, error now:0.088064
+error num:1, 3, 285.207993
+standard connection:1451.801485, error now:0.082778
+error num:1, 4, 415.700027
+error num:4, 1, 385.238237
+indx pair: 2
+error num:2, 3, 190.054434
+error num:3, 2, 211.273045
+standard connection:1946.377007, error now:0.078309
+error num:4, 2, 232.201937
+indx pair: 3
+standard connection:1415.168032, error now:0.072888
+error num:4, 3, 148.193770
+indx pair: 4
+standard connection:6131.700184, error now:0.036100
+standard connection:6088.573198, error now:0.038224
+standard connection:6128.814948, error now:0.034198
+standard connection:6133.690025, error now:0.041917
+Elapsed time is 0.822524 seconds.
+test time:16, error now:0.066712
+indx pair: 1
+error num:1, 2, 155.188313
+standard connection:1634.201087, error now:0.072703
+error num:1, 3, 191.296346
+standard connection:674.272468, error now:0.142199
+error num:1, 4, 637.222890
+error num:4, 1, 271.803219
+indx pair: 2
+error num:2, 3, 201.842871
+error num:3, 2, 259.519079
+standard connection:1304.982851, error now:0.115245
+error num:4, 2, 213.417286
+indx pair: 3
+standard connection:1482.879984, error now:0.139038
+error num:4, 3, 230.482407
+indx pair: 4
+standard connection:6096.342493, error now:0.029769
+standard connection:6163.998855, error now:0.016307
+standard connection:6150.499897, error now:0.036995
+standard connection:6290.741690, error now:0.043197
+Elapsed time is 0.852176 seconds.
+test time:17, error now:0.067166
+indx pair: 1
+error num:1, 2, 210.845382
+standard connection:2177.999464, error now:0.088979
+error num:1, 3, 173.045879
+standard connection:1714.317020, error now:0.141136
+error num:1, 4, 603.570592
+error num:4, 1, 281.648854
+indx pair: 2
+error num:2, 3, 221.561281
+error num:3, 2, 315.071894
+standard connection:1033.989332, error now:0.161396
+error num:4, 2, 207.903313
+indx pair: 3
+standard connection:1482.479314, error now:0.135792
+error num:4, 3, 185.941427
+indx pair: 4
+standard connection:6148.204636, error now:0.049934
+standard connection:6169.087200, error now:0.025610
+standard connection:6151.530198, error now:0.030594
+standard connection:6241.155770, error now:0.034242
+Elapsed time is 0.839598 seconds.
+test time:18, error now:0.068071
+indx pair: 1
+error num:1, 2, 227.897119
+standard connection:1882.252596, error now:0.078395
+error num:1, 3, 250.055168
+standard connection:1405.926105, error now:0.137967
+error num:1, 4, 518.994831
+error num:4, 1, 536.112163
+indx pair: 2
+error num:2, 3, 198.483677
+error num:3, 2, 176.649164
+standard connection:1818.312393, error now:0.099632
+error num:4, 2, 280.514590
+indx pair: 3
+standard connection:1961.150442, error now:0.127878
+error num:4, 3, 219.302018
+indx pair: 4
+standard connection:6161.388155, error now:0.037972
+standard connection:6102.364056, error now:0.019157
+standard connection:6174.402323, error now:0.028743
+standard connection:6106.473121, error now:0.051957
+Elapsed time is 0.808658 seconds.
+test time:19, error now:0.068316
+indx pair: 1
+error num:1, 2, 194.935195
+standard connection:1797.579089, error now:0.054160
+error num:1, 3, 250.296433
+standard connection:1522.180086, error now:0.100702
+error num:1, 4, 705.617396
+error num:4, 1, 704.831654
+indx pair: 2
+error num:2, 3, 206.743753
+error num:3, 2, 336.800576
+standard connection:1927.756197, error now:0.058347
+error num:4, 2, 228.667851
+indx pair: 3
+standard connection:1796.360078, error now:0.109360
+error num:4, 3, 244.987135
+indx pair: 4
+standard connection:6119.178297, error now:0.032389
+standard connection:6123.944951, error now:0.019871
+standard connection:6123.550252, error now:0.023627
+standard connection:6108.908233, error now:0.036599
+Elapsed time is 0.828798 seconds.
+test time:20, error now:0.067619
+    0.0676
+

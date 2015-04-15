@@ -1,0 +1,63 @@
+    small_control: 3
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [4x4 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1]
+             mode: 1
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    14    15    34    14.txt'
+
+     1     0     1     1
+     1     1     1     1
+     0     0     0     1
+     0     0     0     1
+
+indx now:1
+error num:1, 3, 442.454012
+error num:1, 4, 445.722293
+indx now:2
+error num:2, 1, 469.371849
+error num:2, 3, 414.850876
+error num:2, 4, 441.752063
+indx now:3
+error num:3, 4, 287.164612
+indx now:4
+Elapsed time is 1.375632 seconds.
+test time:1, error now:0.126820
+indx now:1
+error num:1, 3, 398.327229
+error num:1, 4, 455.602841
+indx now:2
+error num:2, 1, 488.244386
+error num:2, 3, 458.291453
+error num:2, 4, 369.161371
+indx now:3
+error num:3, 4, 513.748559
+indx now:4
+Elapsed time is 1.328306 seconds.
+test time:2, error now:0.129778
+indx now:1
+error num:1, 3, 469.818454
+error num:1, 4, 543.085404
+indx now:2
+error num:2, 1, 515.109588
+error num:2, 3, 393.810372
+error num:2, 4, 428.509585
+indx now:3
+error num:3, 4, 418.422330
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity>MVAR_ml', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 441)" style="font-weight:bold">calculate_connectivity>MVAR_ml</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',441,0)">line 441</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 193)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',193,0)">line 193</a>)
+        A_tmp   = MVAR_ml(data, N, recon_P, indx_i);
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 39)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',39,0)">line 39</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+cal_simu_combine

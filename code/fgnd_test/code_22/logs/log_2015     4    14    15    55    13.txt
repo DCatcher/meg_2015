@@ -1,0 +1,262 @@
+    small_control: 3
+                N: 12000
+                P: 11
+            gamma: 0
+    configuration: [4x4 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1]
+             mode: 1
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    14    15    55    13.txt'
+
+     1     0     1     1
+     1     1     1     1
+     0     0     0     1
+     0     0     0     1
+
+indx now:1
+error num:1, 3, 559.903340
+error num:1, 4, 686.062602
+indx now:2
+error num:2, 1, 676.707515
+error num:2, 3, 567.726824
+error num:2, 4, 569.680723
+indx now:3
+error num:3, 4, 743.583782
+indx now:4
+Elapsed time is 2.270255 seconds.
+test time:1, error now:0.093102
+indx now:1
+error num:1, 3, 670.911068
+error num:1, 4, 719.576998
+indx now:2
+error num:2, 1, 682.544324
+error num:2, 3, 636.992117
+error num:2, 4, 728.773841
+indx now:3
+error num:3, 4, 622.624218
+indx now:4
+Elapsed time is 2.196989 seconds.
+test time:2, error now:0.090060
+indx now:1
+error num:1, 3, 616.823898
+error num:1, 4, 666.035368
+indx now:2
+error num:2, 1, 865.470453
+error num:2, 3, 679.418882
+error num:2, 4, 517.806784
+indx now:3
+error num:3, 4, 588.752467
+indx now:4
+Elapsed time is 2.196303 seconds.
+test time:3, error now:0.091878
+indx now:1
+error num:1, 3, 620.136428
+error num:1, 4, 703.112429
+indx now:2
+error num:2, 1, 724.113859
+error num:2, 3, 656.193740
+error num:2, 4, 595.586169
+indx now:3
+error num:3, 4, 574.966457
+indx now:4
+Elapsed time is 2.211456 seconds.
+test time:4, error now:0.092430
+indx now:1
+error num:1, 3, 640.937132
+error num:1, 4, 647.656480
+indx now:2
+error num:2, 1, 648.293665
+error num:2, 3, 514.659455
+error num:2, 4, 539.150700
+indx now:3
+error num:3, 4, 484.677891
+indx now:4
+Elapsed time is 2.179797 seconds.
+test time:5, error now:0.091608
+indx now:1
+error num:1, 3, 560.584919
+error num:1, 4, 734.976053
+indx now:2
+error num:2, 1, 677.897625
+error num:2, 3, 579.738591
+error num:2, 4, 684.934598
+indx now:3
+error num:3, 4, 645.897765
+indx now:4
+Elapsed time is 2.142403 seconds.
+test time:6, error now:0.092092
+indx now:1
+error num:1, 3, 552.392147
+error num:1, 4, 607.645820
+indx now:2
+error num:2, 1, 751.556962
+error num:2, 3, 556.544659
+error num:2, 4, 610.413124
+indx now:3
+error num:3, 4, 756.322502
+indx now:4
+Elapsed time is 2.170220 seconds.
+test time:7, error now:0.093500
+indx now:1
+error num:1, 3, 613.256584
+error num:1, 4, 591.269181
+indx now:2
+error num:2, 1, 533.715954
+error num:2, 3, 695.869872
+error num:2, 4, 487.907349
+indx now:3
+error num:3, 4, 737.578655
+indx now:4
+Elapsed time is 2.171466 seconds.
+test time:8, error now:0.093936
+indx now:1
+error num:1, 3, 586.856472
+error num:1, 4, 584.167931
+indx now:2
+error num:2, 1, 894.257006
+error num:2, 3, 736.359049
+error num:2, 4, 598.941867
+indx now:3
+error num:3, 4, 638.618131
+indx now:4
+Elapsed time is 2.224383 seconds.
+test time:9, error now:0.093528
+indx now:1
+error num:1, 3, 862.493345
+error num:1, 4, 695.483371
+indx now:2
+error num:2, 1, 666.370212
+error num:2, 3, 507.704281
+error num:2, 4, 586.329897
+indx now:3
+error num:3, 4, 732.702531
+indx now:4
+Elapsed time is 2.202117 seconds.
+test time:10, error now:0.092930
+indx now:1
+error num:1, 3, 674.102230
+error num:1, 4, 682.170672
+indx now:2
+error num:2, 1, 731.188878
+error num:2, 3, 553.037338
+error num:2, 4, 632.611371
+indx now:3
+error num:3, 4, 709.791877
+indx now:4
+Elapsed time is 2.222813 seconds.
+test time:11, error now:0.093353
+indx now:1
+error num:1, 3, 625.302347
+error num:1, 4, 578.791375
+indx now:2
+error num:2, 1, 544.470233
+error num:2, 3, 844.727963
+error num:2, 4, 669.034670
+indx now:3
+error num:3, 4, 673.809482
+indx now:4
+Elapsed time is 2.191617 seconds.
+test time:12, error now:0.093139
+indx now:1
+error num:1, 3, 571.239423
+error num:1, 4, 594.748646
+indx now:2
+error num:2, 1, 627.939587
+error num:2, 3, 607.255893
+error num:2, 4, 560.572187
+indx now:3
+error num:3, 4, 594.688591
+indx now:4
+Elapsed time is 2.194944 seconds.
+test time:13, error now:0.092993
+indx now:1
+error num:1, 3, 747.463578
+error num:1, 4, 488.780650
+indx now:2
+error num:2, 1, 663.263841
+error num:2, 3, 674.910027
+error num:2, 4, 635.024387
+indx now:3
+error num:3, 4, 577.441783
+indx now:4
+Elapsed time is 2.202510 seconds.
+test time:14, error now:0.092915
+indx now:1
+error num:1, 3, 712.252305
+error num:1, 4, 653.819340
+indx now:2
+error num:2, 1, 660.136441
+error num:2, 3, 593.353177
+error num:2, 4, 640.536616
+indx now:3
+error num:3, 4, 548.079234
+indx now:4
+Elapsed time is 2.157946 seconds.
+test time:15, error now:0.093205
+indx now:1
+error num:1, 3, 727.663432
+error num:1, 4, 760.905576
+indx now:2
+error num:2, 1, 678.687665
+error num:2, 3, 697.389371
+error num:2, 4, 571.300112
+indx now:3
+error num:3, 4, 671.346638
+indx now:4
+Elapsed time is 2.158709 seconds.
+test time:16, error now:0.093589
+indx now:1
+error num:1, 3, 821.530409
+error num:1, 4, 617.569130
+indx now:2
+error num:2, 1, 670.131118
+error num:2, 3, 657.306757
+error num:2, 4, 685.732435
+indx now:3
+error num:3, 4, 712.827908
+indx now:4
+Elapsed time is 2.184504 seconds.
+test time:17, error now:0.094177
+indx now:1
+error num:1, 3, 639.267232
+error num:1, 4, 594.987548
+indx now:2
+error num:2, 1, 688.159084
+error num:2, 3, 681.340548
+error num:2, 4, 596.035892
+indx now:3
+error num:3, 4, 521.114827
+indx now:4
+Elapsed time is 2.249114 seconds.
+test time:18, error now:0.094600
+indx now:1
+error num:1, 3, 599.495240
+error num:1, 4, 669.525953
+indx now:2
+error num:2, 1, 568.312150
+error num:2, 3, 562.117178
+error num:2, 4, 666.897343
+indx now:3
+error num:3, 4, 618.518370
+indx now:4
+Elapsed time is 2.132107 seconds.
+test time:19, error now:0.095079
+indx now:1
+error num:1, 3, 782.472279
+error num:1, 4, 772.129942
+indx now:2
+error num:2, 1, 729.078352
+error num:2, 3, 602.328856
+error num:2, 4, 662.394526
+indx now:3
+error num:3, 4, 606.637654
+indx now:4
+Elapsed time is 2.198692 seconds.
+test time:20, error now:0.095221
+    0.0952
+

@@ -1,0 +1,184 @@
+    small_control: 3
+                N: 12000
+                P: 11
+            gamma: 0
+    configuration: [3x3 double]
+          recon_P: 11
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1]
+             mode: 0
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    14    19    43    36.txt'
+
+     1     0     0
+     1     1     1
+     0     0     1
+
+indx pair: 1
+error num:1, 2, 207.320312
+standard connection:1812.904027
+error num:1, 3, 364.334781
+error num:3, 1, 733.564910
+indx pair: 2
+standard connection:3603.003732
+error num:3, 2, 153.904257
+indx pair: 3
+standard connection:12396.989076
+standard connection:12289.698663
+standard connection:12284.032579
+Elapsed time is 0.925232 seconds.
+test time:1, error now:0.054906
+indx pair: 1
+error num:1, 2, 331.583959
+standard connection:3248.020656
+error num:1, 3, 642.985003
+error num:3, 1, 688.149285
+indx pair: 2
+standard connection:3290.249968
+error num:3, 2, 243.690336
+indx pair: 3
+standard connection:12458.827797
+standard connection:12235.085591
+standard connection:12254.778520
+Elapsed time is 0.919517 seconds.
+test time:2, error now:0.048719
+indx pair: 1
+error num:1, 2, 284.514630
+standard connection:3546.013729
+error num:1, 3, 914.266499
+error num:3, 1, 727.369695
+indx pair: 2
+standard connection:3566.328703
+error num:3, 2, 288.701793
+indx pair: 3
+standard connection:12360.511846
+standard connection:12101.436424
+standard connection:12219.955403
+Elapsed time is 0.954988 seconds.
+test time:3, error now:0.046071
+indx pair: 1
+error num:1, 2, 378.821021
+standard connection:2588.863739
+error num:1, 3, 299.165883
+error num:3, 1, 393.946879
+indx pair: 2
+standard connection:2439.409614
+error num:3, 2, 461.181585
+indx pair: 3
+standard connection:12329.823966
+standard connection:12201.669336
+standard connection:12250.569110
+Elapsed time is 0.957714 seconds.
+test time:4, error now:0.048091
+indx pair: 1
+error num:1, 2, 270.651161
+standard connection:4439.254723
+error num:1, 3, 1228.753982
+error num:3, 1, 1029.061957
+indx pair: 2
+standard connection:3499.430427
+error num:3, 2, 289.316419
+indx pair: 3
+standard connection:12462.765718
+standard connection:12268.733665
+standard connection:12271.865710
+Elapsed time is 0.928718 seconds.
+test time:5, error now:0.048237
+indx pair: 1
+error num:1, 2, 279.763542
+standard connection:2929.322101
+error num:1, 3, 856.241314
+error num:3, 1, 576.124578
+indx pair: 2
+standard connection:3305.223111
+error num:3, 2, 397.625250
+indx pair: 3
+standard connection:12357.563675
+standard connection:12416.632700
+standard connection:12359.897444
+Elapsed time is 0.959457 seconds.
+test time:6, error now:0.048412
+indx pair: 1
+error num:1, 2, 375.330142
+standard connection:3570.398367
+error num:1, 3, 653.879011
+error num:3, 1, 1007.330597
+indx pair: 2
+standard connection:3708.700253
+error num:3, 2, 281.004057
+indx pair: 3
+standard connection:12282.030558
+standard connection:12198.150893
+standard connection:12355.710699
+Elapsed time is 0.909744 seconds.
+test time:7, error now:0.047741
+indx pair: 1
+error num:1, 2, 280.431564
+standard connection:3888.236991
+error num:1, 3, 522.230588
+error num:3, 1, 660.962215
+indx pair: 2
+standard connection:2448.716798
+error num:3, 2, 358.655770
+indx pair: 3
+standard connection:12207.608161
+standard connection:12281.632268
+standard connection:12299.172256
+Elapsed time is 0.910956 seconds.
+test time:8, error now:0.047892
+indx pair: 1
+error num:1, 2, 370.522361
+standard connection:2470.868443
+error num:1, 3, 979.691182
+error num:3, 1, 430.879601
+indx pair: 2
+standard connection:3961.081210
+error num:3, 2, 264.349010
+indx pair: 3
+standard connection:12317.837415
+standard connection:12335.922035
+standard connection:12418.686521
+Elapsed time is 1.009256 seconds.
+test time:9, error now:0.046155
+indx pair: 1
+error num:1, 2, 482.597700
+standard connection:3759.837274
+error num:1, 3, 781.635484
+error num:3, 1, 848.286099
+indx pair: 2
+standard connection:3506.379730
+error num:3, 2, 522.494487
+indx pair: 3
+standard connection:12326.241021
+standard connection:12486.737504
+standard connection:12301.107179
+Elapsed time is 0.929891 seconds.
+test time:10, error now:0.044985
+indx pair: 1
+error num:1, 2, 240.783161
+standard connection:3292.493836
+error num:1, 3, 960.326595
+error num:3, 1, 555.083497
+indx pair: 2
+standard connection:4079.219290
+error num:3, 2, 414.337945
+indx pair: 3
+standard connection:12170.816219
+standard connection:12299.214482
+standard connection:12371.833528
+Elapsed time is 0.968979 seconds.
+test time:11, error now:0.044638
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('simulateOneRun>mymvfilter', 'd:\matlab2012a\meg\code\fgnd_test\code_22\simulateOneRun.m', 121)" style="font-weight:bold">simulateOneRun>mymvfilter</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\simulateOneRun.m',121,0)">line 121</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('simulateOneRun', 'd:\matlab2012a\meg\code\fgnd_test\code_22\simulateOneRun.m', 95)" style="font-weight:bold">simulateOneRun</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\simulateOneRun.m',95,0)">line 95</a>)
+        dataNoise=mymvfilter(arNoise,x)'*randn(M);
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 39)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',39,0)">line 39</a>)
+    [params.data, params.arSig, params.arNoise, params.x_sig, params.x_noise, params.sigLevel,
+    params.noiseLevel]=simulateOneRun(params.N, params.P, params.gamma, params.configuration, params);
+} 
+cal_simu_combine

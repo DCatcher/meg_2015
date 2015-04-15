@@ -1,0 +1,544 @@
+    small_control: 3
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [20x20 double]
+          recon_P: 11
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+             mode: 1
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    14    20    24    12.txt'
+
+  Columns 1 through 17
+
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     1     1     1     1     1     1     1     1     1     1     1     1     1     1     1     1
+
+  Columns 18 through 20
+
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     1     1     1
+
+indx now:1, error MVAR:0.849551
+nrror num:1, 1, 6178.420580, error new:0.938141
+nrror num:1, 2, 1764.353613, error new:0.973837
+nrror num:1, 3, 1869.716933, error new:0.974908
+nrror num:1, 4, 1911.462398, error new:0.974683
+nrror num:1, 5, 1834.650510, error new:0.978885
+nrror num:1, 6, 2140.975023, error new:0.972137
+nrror num:1, 7, 1752.422283, error new:0.972791
+nrror num:1, 8, 1561.503124, error new:0.981903
+nrror num:1, 9, 1163.778993, error new:0.991144
+nrror num:1, 10, 1412.030603, error new:0.985229
+nrror num:1, 11, 1549.633431, error new:0.975244
+nrror num:1, 12, 1591.693782, error new:0.981242
+nrror num:1, 13, 1488.297724, error new:0.985277
+nrror num:1, 14, 1656.185410, error new:0.979166
+nrror num:1, 15, 1654.992904, error new:0.982280
+nrror num:1, 16, 1237.349637, error new:0.985983
+nrror num:1, 17, 1333.185102, error new:0.987299
+nrror num:1, 18, 1974.493176, error new:0.975127
+nrror num:1, 19, 1561.885980, error new:0.984643
+error num:1, 20, 173.522290, error new:0.999857
+indx now:2, error MVAR:0.484898
+error num:2, 1, 186.074433, error new:0.996776
+nrror num:2, 2, 6107.076712, error new:0.853995
+error num:2, 3, 242.859799, error new:0.996690
+error num:2, 4, 145.643323, error new:0.998751
+error num:2, 5, 119.101148, error new:0.998967
+error num:2, 6, 230.223832, error new:0.997937
+error num:2, 7, 246.162459, error new:0.997457
+error num:2, 8, 258.072638, error new:0.996856
+error num:2, 9, 216.676562, error new:0.998178
+error num:2, 10, 116.292708, error new:0.999000
+error num:2, 11, 175.222892, error new:0.997820
+error num:2, 12, 252.824058, error new:0.997345
+error num:2, 13, 200.819320, error new:0.997795
+error num:2, 14, 212.892111, error new:0.996608
+error num:2, 15, 249.107096, error new:0.996931
+error num:2, 16, 256.538922, error new:0.995017
+error num:2, 17, 284.534977, error new:0.994171
+error num:2, 18, 215.738594, error new:0.997015
+error num:2, 19, 184.978401, error new:0.998373
+nrror num:2, 20, 2076.920534, error new:0.823313
+indx now:3, error MVAR:0.442888
+error num:3, 1, 122.990774, error new:0.997490
+error num:3, 2, 229.827527, error new:0.997084
+nrror num:3, 3, 6115.600453, error new:0.829184
+error num:3, 4, 135.813584, error new:0.999084
+error num:3, 5, 183.684903, error new:0.998383
+error num:3, 6, 254.712743, error new:0.994882
+error num:3, 7, 387.791062, error new:0.991606
+error num:3, 8, 312.225104, error new:0.991747
+error num:3, 9, 277.071627, error new:0.993569
+error num:3, 10, 238.644279, error new:0.997077
+error num:3, 11, 213.948982, error new:0.996014
+error num:3, 12, 201.386048, error new:0.997877
+error num:3, 13, 213.568617, error new:0.997673
+error num:3, 14, 261.839037, error new:0.994881
+error num:3, 15, 241.945582, error new:0.997047
+error num:3, 16, 259.808503, error new:0.994662
+error num:3, 17, 173.447625, error new:0.997689
+error num:3, 18, 165.799279, error new:0.998425
+error num:3, 19, 203.475384, error new:0.997623
+nrror num:3, 20, 1892.735644, error new:0.804756
+indx now:4, error MVAR:0.446845
+error num:4, 1, 137.463543, error new:0.997503
+error num:4, 2, 144.837761, error new:0.998088
+error num:4, 3, 170.553358, error new:0.997239
+nrror num:4, 4, 6151.235559, error new:0.772093
+error num:4, 5, 257.004741, error new:0.994806
+error num:4, 6, 200.777481, error new:0.997077
+error num:4, 7, 217.656310, error new:0.997306
+error num:4, 8, 283.187570, error new:0.996163
+error num:4, 9, 190.225329, error new:0.996127
+error num:4, 10, 296.215591, error new:0.993694
+error num:4, 11, 273.124729, error new:0.995656
+error num:4, 12, 225.740115, error new:0.997465
+error num:4, 13, 276.247856, error new:0.994755
+error num:4, 14, 200.212910, error new:0.996020
+error num:4, 15, 166.927001, error new:0.997646
+error num:4, 16, 160.854972, error new:0.996357
+error num:4, 17, 186.074215, error new:0.997613
+error num:4, 18, 141.140681, error new:0.998613
+error num:4, 19, 227.686203, error new:0.997047
+nrror num:4, 20, 1819.163836, error new:0.863965
+indx now:5, error MVAR:0.393393
+error num:5, 1, 265.712244, error new:0.985285
+error num:5, 2, 244.482147, error new:0.995572
+error num:5, 3, 314.237217, error new:0.990307
+error num:5, 4, 247.184525, error new:0.994573
+nrror num:5, 5, 6101.542754, error new:0.766592
+error num:5, 6, 138.388043, error new:0.998617
+error num:5, 7, 210.085870, error new:0.996809
+error num:5, 8, 242.329327, error new:0.995448
+error num:5, 9, 213.409022, error new:0.994240
+error num:5, 10, 132.599446, error new:0.998393
+error num:5, 11, 243.998745, error new:0.994134
+error num:5, 12, 163.526514, error new:0.997565
+error num:5, 13, 342.900353, error new:0.988423
+error num:5, 14, 211.204195, error new:0.995809
+error num:5, 15, 252.510552, error new:0.995107
+error num:5, 16, 189.735450, error new:0.997247
+error num:5, 17, 272.156543, error new:0.995013
+error num:5, 18, 330.593733, error new:0.987206
+error num:5, 19, 214.056699, error new:0.998702
+nrror num:5, 20, 1279.979412, error new:0.900701
+indx now:6, error MVAR:0.423425
+error num:6, 1, 259.029611, error new:0.992745
+error num:6, 2, 252.264654, error new:0.994002
+error num:6, 3, 308.311929, error new:0.992791
+error num:6, 4, 207.465045, error new:0.996978
+error num:6, 5, 224.146200, error new:0.995520
+nrror num:6, 6, 6125.431032, error new:0.788350
+error num:6, 7, 296.518400, error new:0.993770
+error num:6, 8, 185.415887, error new:0.997360
+error num:6, 9, 282.301837, error new:0.994455
+error num:6, 10, 248.835508, error new:0.991363
+error num:6, 11, 152.611983, error new:0.998971
+error num:6, 12, 249.340224, error new:0.995008
+error num:6, 13, 273.049197, error new:0.994698
+error num:6, 14, 234.345187, error new:0.996308
+error num:6, 15, 279.947380, error new:0.996246
+error num:6, 16, 206.771670, error new:0.996759
+error num:6, 17, 218.878678, error new:0.995860
+error num:6, 18, 282.532922, error new:0.994455
+error num:6, 19, 300.519641, error new:0.995976
+nrror num:6, 20, 1679.583594, error new:0.825661
+indx now:7, error MVAR:0.461016
+error num:7, 1, 153.143260, error new:0.998107
+error num:7, 2, 296.026405, error new:0.995008
+error num:7, 3, 189.468149, error new:0.997184
+error num:7, 4, 281.705768, error new:0.996291
+error num:7, 5, 263.284102, error new:0.995481
+error num:7, 6, 164.734288, error new:0.997151
+nrror num:7, 7, 6172.813367, error new:0.687258
+error num:7, 8, 238.659322, error new:0.994855
+error num:7, 9, 230.789239, error new:0.997606
+error num:7, 10, 315.089474, error new:0.992665
+error num:7, 11, 287.014480, error new:0.995590
+error num:7, 12, 227.749224, error new:0.995788
+error num:7, 13, 249.047940, error new:0.996058
+error num:7, 14, 233.388147, error new:0.995637
+error num:7, 15, 210.930629, error new:0.996541
+error num:7, 16, 245.511796, error new:0.995472
+error num:7, 17, 222.842635, error new:0.996830
+error num:7, 18, 264.121343, error new:0.996456
+error num:7, 19, 185.277841, error new:0.996651
+nrror num:7, 20, 1252.846796, error new:0.919840
+indx now:8, error MVAR:0.438142
+error num:8, 1, 134.716897, error new:0.997944
+error num:8, 2, 226.647185, error new:0.997410
+error num:8, 3, 219.990994, error new:0.995665
+error num:8, 4, 367.527462, error new:0.988153
+error num:8, 5, 342.429878, error new:0.991121
+error num:8, 6, 237.411812, error new:0.995736
+error num:8, 7, 211.180918, error new:0.996661
+nrror num:8, 8, 6116.241668, error new:0.790620
+error num:8, 9, 205.969596, error new:0.996434
+error num:8, 10, 158.301468, error new:0.998641
+error num:8, 11, 271.433501, error new:0.995187
+error num:8, 12, 180.198907, error new:0.996177
+error num:8, 13, 216.349488, error new:0.996098
+error num:8, 14, 160.619807, error new:0.997033
+error num:8, 15, 111.991448, error new:0.999332
+error num:8, 16, 234.205560, error new:0.995110
+error num:8, 17, 203.961810, error new:0.996993
+error num:8, 18, 258.151797, error new:0.996193
+error num:8, 19, 367.789694, error new:0.991406
+nrror num:8, 20, 1371.169811, error new:0.902636
+indx now:9, error MVAR:0.501468
+error num:9, 1, 125.661432, error new:0.998913
+error num:9, 2, 230.818600, error new:0.998177
+error num:9, 3, 148.009016, error new:0.999381
+error num:9, 4, 198.936239, error new:0.995963
+error num:9, 5, 190.388889, error new:0.998273
+error num:9, 6, 195.831596, error new:0.998947
+error num:9, 7, 209.705355, error new:0.997883
+error num:9, 8, 226.194604, error new:0.997115
+nrror num:9, 9, 6227.607383, error new:0.630478
+error num:9, 10, 240.654778, error new:0.996659
+error num:9, 11, 271.724038, error new:0.996579
+error num:9, 12, 287.054738, error new:0.997887
+error num:9, 13, 135.321398, error new:0.999035
+error num:9, 14, 175.968792, error new:0.998602
+error num:9, 15, 245.549225, error new:0.997991
+error num:9, 16, 201.759506, error new:0.997193
+error num:9, 17, 134.999049, error new:0.999322
+error num:9, 18, 281.826231, error new:0.996654
+error num:9, 19, 257.014406, error new:0.997607
+nrror num:9, 20, 1577.921660, error new:0.885933
+indx now:10, error MVAR:0.373638
+error num:10, 1, 162.599135, error new:0.996734
+error num:10, 2, 205.753777, error new:0.994787
+error num:10, 3, 162.164287, error new:0.995402
+error num:10, 4, 242.907415, error new:0.993321
+error num:10, 5, 192.964330, error new:0.995616
+error num:10, 6, 233.877344, error new:0.993402
+error num:10, 7, 238.618448, error new:0.990561
+error num:10, 8, 164.452433, error new:0.995999
+error num:10, 9, 226.745319, error new:0.993913
+nrror num:10, 10, 6102.362804, error new:0.740269
+error num:10, 11, 229.572038, error new:0.995744
+error num:10, 12, 190.556154, error new:0.994194
+error num:10, 13, 176.542806, error new:0.998225
+error num:10, 14, 211.252599, error new:0.994024
+error num:10, 15, 127.662364, error new:0.998949
+error num:10, 16, 179.353640, error new:0.996262
+error num:10, 17, 239.715794, error new:0.993282
+error num:10, 18, 131.217094, error new:0.998244
+error num:10, 19, 204.962717, error new:0.995700
+nrror num:10, 20, 1339.294437, error new:0.856049
+indx now:11, error MVAR:0.546540
+error num:11, 1, 207.791797, error new:0.997661
+error num:11, 2, 209.122803, error new:0.998431
+error num:11, 3, 280.148643, error new:0.995758
+error num:11, 4, 246.031181, error new:0.998036
+error num:11, 5, 278.828357, error new:0.996290
+error num:11, 6, 295.057325, error new:0.996808
+error num:11, 7, 217.176972, error new:0.998425
+error num:11, 8, 197.331256, error new:0.996967
+error num:11, 9, 177.203790, error new:0.999151
+error num:11, 10, 239.720406, error new:0.997654
+nrror num:11, 11, 6199.721055, error new:0.753490
+error num:11, 12, 188.642877, error new:0.998457
+error num:11, 13, 240.992957, error new:0.996509
+error num:11, 14, 243.531574, error new:0.996690
+error num:11, 15, 190.351907, error new:0.998276
+error num:11, 16, 257.319999, error new:0.997521
+error num:11, 17, 223.566883, error new:0.997786
+error num:11, 18, 205.536275, error new:0.998528
+error num:11, 19, 240.665267, error new:0.998396
+nrror num:11, 20, 2198.557885, error new:0.861270
+indx now:12, error MVAR:0.478050
+error num:12, 1, 168.006520, error new:0.996884
+error num:12, 2, 233.970673, error new:0.997271
+error num:12, 3, 273.213536, error new:0.995376
+error num:12, 4, 219.474377, error new:0.996428
+error num:12, 5, 282.362544, error new:0.996941
+error num:12, 6, 322.704686, error new:0.994875
+error num:12, 7, 232.479197, error new:0.998008
+error num:12, 8, 222.603569, error new:0.996022
+error num:12, 9, 307.833577, error new:0.993762
+error num:12, 10, 264.519238, error new:0.995253
+error num:12, 11, 142.010657, error new:0.999386
+nrror num:12, 12, 6149.514652, error new:0.713042
+error num:12, 13, 126.814887, error new:0.998952
+error num:12, 14, 181.034483, error new:0.997965
+error num:12, 15, 251.389839, error new:0.996140
+error num:12, 16, 189.748544, error new:0.997465
+error num:12, 17, 146.955837, error new:0.998879
+error num:12, 18, 262.209113, error new:0.996702
+error num:12, 19, 225.671207, error new:0.997449
+nrror num:12, 20, 1651.371915, error new:0.908543
+indx now:13, error MVAR:0.411084
+error num:13, 1, 248.311224, error new:0.992719
+error num:13, 2, 210.146027, error new:0.997378
+error num:13, 3, 139.365126, error new:0.998790
+error num:13, 4, 195.531996, error new:0.996491
+error num:13, 5, 236.613399, error new:0.996300
+error num:13, 6, 212.687467, error new:0.995870
+error num:13, 7, 204.303158, error new:0.997917
+error num:13, 8, 252.698144, error new:0.995049
+error num:13, 9, 295.144614, error new:0.993671
+error num:13, 10, 304.641997, error new:0.990093
+error num:13, 11, 131.589047, error new:0.997731
+error num:13, 12, 271.154356, error new:0.993413
+nrror num:13, 13, 6080.112852, error new:0.838678
+error num:13, 14, 267.800241, error new:0.993992
+error num:13, 15, 314.511394, error new:0.991372
+error num:13, 16, 100.398525, error new:0.999153
+error num:13, 17, 165.863799, error new:0.997586
+error num:13, 18, 263.974215, error new:0.995196
+error num:13, 19, 220.413607, error new:0.995595
+nrror num:13, 20, 1343.109569, error new:0.904535
+indx now:14, error MVAR:0.460549
+error num:14, 1, 175.379343, error new:0.996945
+error num:14, 2, 281.262006, error new:0.993623
+error num:14, 3, 340.277892, error new:0.992583
+error num:14, 4, 211.158580, error new:0.998114
+error num:14, 5, 176.820927, error new:0.997722
+error num:14, 6, 303.148363, error new:0.995331
+error num:14, 7, 270.303271, error new:0.995083
+error num:14, 8, 235.258941, error new:0.998073
+error num:14, 9, 178.292269, error new:0.998411
+error num:14, 10, 251.493840, error new:0.995324
+error num:14, 11, 253.170056, error new:0.996965
+error num:14, 12, 262.505425, error new:0.995865
+error num:14, 13, 190.507374, error new:0.996721
+nrror num:14, 14, 6151.757463, error new:0.681946
+error num:14, 15, 287.778356, error new:0.994710
+error num:14, 16, 202.156186, error new:0.996715
+error num:14, 17, 218.711489, error new:0.996248
+error num:14, 18, 251.168120, error new:0.996541
+error num:14, 19, 206.185659, error new:0.998623
+nrror num:14, 20, 1479.497388, error new:0.925270
+indx now:15, error MVAR:0.414436
+error num:15, 1, 153.124285, error new:0.996442
+error num:15, 2, 178.768948, error new:0.996747
+error num:15, 3, 252.711595, error new:0.995325
+error num:15, 4, 197.845868, error new:0.996945
+error num:15, 5, 190.254592, error new:0.997382
+error num:15, 6, 194.457846, error new:0.996351
+error num:15, 7, 151.462403, error new:0.998763
+error num:15, 8, 178.063325, error new:0.997747
+error num:15, 9, 279.716216, error new:0.993408
+error num:15, 10, 225.374172, error new:0.996639
+error num:15, 11, 283.347719, error new:0.991545
+error num:15, 12, 295.138802, error new:0.994758
+error num:15, 13, 284.188218, error new:0.993719
+error num:15, 14, 259.186917, error new:0.994454
+nrror num:15, 15, 6158.843071, error new:0.683546
+error num:15, 16, 128.597727, error new:0.997037
+error num:15, 17, 243.530284, error new:0.994769
+error num:15, 18, 196.138995, error new:0.996901
+error num:15, 19, 218.951284, error new:0.996615
+nrror num:15, 20, 1214.685249, error new:0.915932
+indx now:16, error MVAR:0.533730
+error num:16, 1, 191.411233, error new:0.997995
+error num:16, 2, 169.154066, error new:0.999094
+error num:16, 3, 265.798167, error new:0.997336
+error num:16, 4, 316.511036, error new:0.996337
+error num:16, 5, 262.315963, error new:0.997519
+error num:16, 6, 306.633717, error new:0.995588
+error num:16, 7, 303.295073, error new:0.996624
+error num:16, 8, 238.735353, error new:0.997942
+error num:16, 9, 243.491605, error new:0.998957
+error num:16, 10, 269.296678, error new:0.995930
+error num:16, 11, 228.526782, error new:0.996804
+error num:16, 12, 300.795858, error new:0.996765
+error num:16, 13, 256.265340, error new:0.996514
+error num:16, 14, 301.370121, error new:0.997520
+error num:16, 15, 249.755379, error new:0.996944
+nrror num:16, 16, 6185.257453, error new:0.742363
+error num:16, 17, 191.938089, error new:0.997229
+error num:16, 18, 200.948861, error new:0.997499
+error num:16, 19, 268.172661, error new:0.995226
+nrror num:16, 20, 2097.546622, error new:0.865573
+indx now:17, error MVAR:0.417369
+error num:17, 1, 169.232840, error new:0.996670
+error num:17, 2, 200.396393, error new:0.995933
+error num:17, 3, 124.951393, error new:0.998807
+error num:17, 4, 315.277369, error new:0.994004
+error num:17, 5, 227.532521, error new:0.995864
+error num:17, 6, 172.520358, error new:0.996854
+error num:17, 7, 227.627146, error new:0.996342
+error num:17, 8, 330.301911, error new:0.991893
+error num:17, 9, 271.621984, error new:0.994637
+error num:17, 10, 172.092956, error new:0.996372
+error num:17, 11, 263.216293, error new:0.995886
+error num:17, 12, 316.247986, error new:0.993442
+error num:17, 13, 240.127100, error new:0.993522
+error num:17, 14, 185.810046, error new:0.996896
+error num:17, 15, 178.846140, error new:0.997930
+error num:17, 16, 184.145472, error new:0.995991
+nrror num:17, 17, 6083.827476, error new:0.847095
+error num:17, 18, 205.036690, error new:0.996386
+error num:17, 19, 204.744610, error new:0.996706
+nrror num:17, 20, 1341.541032, error new:0.892418
+indx now:18, error MVAR:0.400021
+error num:18, 1, 163.875163, error new:0.994658
+error num:18, 2, 183.126146, error new:0.995941
+error num:18, 3, 189.218493, error new:0.995323
+error num:18, 4, 251.184096, error new:0.993964
+error num:18, 5, 158.715980, error new:0.995924
+error num:18, 6, 294.958246, error new:0.995586
+error num:18, 7, 237.585555, error new:0.994373
+error num:18, 8, 331.106300, error new:0.990777
+error num:18, 9, 252.457612, error new:0.994911
+error num:18, 10, 235.546394, error new:0.994832
+error num:18, 11, 203.944447, error new:0.996148
+error num:18, 12, 169.893054, error new:0.996451
+error num:18, 13, 221.684978, error new:0.994094
+error num:18, 14, 248.719136, error new:0.995015
+error num:18, 15, 214.531759, error new:0.994571
+error num:18, 16, 237.245719, error new:0.994981
+error num:18, 17, 183.668844, error new:0.997603
+nrror num:18, 18, 6125.685136, error new:0.711005
+error num:18, 19, 234.062685, error new:0.995043
+nrror num:18, 20, 1355.545484, error new:0.893977
+indx now:19, error MVAR:0.431146
+error num:19, 1, 168.463173, error new:0.995387
+error num:19, 2, 176.084941, error new:0.997145
+error num:19, 3, 185.248491, error new:0.996325
+error num:19, 4, 213.220928, error new:0.996722
+error num:19, 5, 169.253312, error new:0.995995
+error num:19, 6, 282.396984, error new:0.992791
+error num:19, 7, 218.058090, error new:0.995905
+error num:19, 8, 270.724677, error new:0.995236
+error num:19, 9, 232.462691, error new:0.995941
+error num:19, 10, 262.312872, error new:0.993827
+error num:19, 11, 251.990598, error new:0.992676
+error num:19, 12, 237.512504, error new:0.996243
+error num:19, 13, 214.218596, error new:0.996438
+error num:19, 14, 274.109094, error new:0.990372
+error num:19, 15, 253.578508, error new:0.994046
+error num:19, 16, 224.681884, error new:0.997241
+error num:19, 17, 131.511828, error new:0.998708
+error num:19, 18, 324.124878, error new:0.990137
+nrror num:19, 19, 6172.271453, error new:0.695691
+nrror num:19, 20, 1539.631788, error new:0.874169
+indx now:20, error MVAR:0.353905
+error num:20, 1, 177.292939, error new:0.992943
+error num:20, 2, 280.003317, error new:0.991168
+error num:20, 3, 243.955390, error new:0.992588
+error num:20, 4, 160.771296, error new:0.995879
+error num:20, 5, 193.418896, error new:0.995521
+error num:20, 6, 254.526773, error new:0.992753
+error num:20, 7, 195.886577, error new:0.995734
+error num:20, 8, 225.349155, error new:0.994592
+error num:20, 9, 193.568512, error new:0.995145
+error num:20, 10, 188.047656, error new:0.995112
+error num:20, 11, 340.886045, error new:0.983735
+error num:20, 12, 290.453731, error new:0.989900
+error num:20, 13, 267.068293, error new:0.992295
+error num:20, 14, 218.241384, error new:0.990876
+error num:20, 15, 246.179929, error new:0.993035
+error num:20, 16, 184.373166, error new:0.996909
+error num:20, 17, 170.693034, error new:0.996427
+error num:20, 18, 197.563638, error new:0.993305
+error num:20, 19, 256.034142, error new:0.992530
+nrror num:20, 20, 6102.143415, error new:0.830622
+Elapsed time is 338.096820 seconds.
+test time:1, error now:0.080467
+indx now:1, error MVAR:0.821704
+nrror num:1, 1, 6092.244707, error new:0.976706
+nrror num:1, 2, 1915.852708, error new:0.969903
+nrror num:1, 3, 1807.748945, error new:0.976031
+nrror num:1, 4, 1461.849935, error new:0.979089
+nrror num:1, 5, 1574.496265, error new:0.981446
+nrror num:1, 6, 2123.626123, error new:0.964438
+nrror num:1, 7, 1546.699904, error new:0.982143
+nrror num:1, 8, 1275.704125, error new:0.987000
+nrror num:1, 9, 1607.861263, error new:0.980672
+nrror num:1, 10, 1359.923714, error new:0.984227
+nrror num:1, 11, 1680.077237, error new:0.976148
+nrror num:1, 12, 1760.586674, error new:0.975292
+nrror num:1, 13, 1628.809708, error new:0.975769
+nrror num:1, 14, 1481.766364, error new:0.980124
+nrror num:1, 15, 1802.390643, error new:0.965390
+nrror num:1, 16, 1264.105347, error new:0.984577
+nrror num:1, 17, 1231.109361, error new:0.987711
+nrror num:1, 18, 1657.914956, error new:0.974196
+nrror num:1, 19, 762.755733, error new:0.994473
+error num:1, 20, 266.316910, error new:0.999710
+indx now:2, error MVAR:0.429887
+error num:2, 1, 149.583186, error new:0.995558
+nrror num:2, 2, 6143.861073, error new:0.670768
+error num:2, 3, 238.627904, error new:0.997677
+error num:2, 4, 269.544852, error new:0.993766
+error num:2, 5, 291.688256, error new:0.993242
+error num:2, 6, 239.023862, error new:0.996463
+error num:2, 7, 201.757833, error new:0.996490
+error num:2, 8, 197.382017, error new:0.998549
+error num:2, 9, 235.478255, error new:0.995873
+error num:2, 10, 188.663949, error new:0.995357
+error num:2, 11, 216.822521, error new:0.996173
+error num:2, 12, 145.169169, error new:0.998531
+error num:2, 13, 275.850342, error new:0.995040
+error num:2, 14, 203.065967, error new:0.997055
+error num:2, 15, 187.864002, error new:0.998038
+error num:2, 16, 260.386769, error new:0.993547
+error num:2, 17, 174.191042, error new:0.998276
+error num:2, 18, 180.256329, error new:0.997131
+error num:2, 19, 172.700250, error new:0.997152
+nrror num:2, 20, 1383.632284, error new:0.909175
+indx now:3, error MVAR:0.477768
+error num:3, 1, 170.059685, error new:0.997205
+error num:3, 2, 214.573679, error new:0.996004
+nrror num:3, 3, 6194.002962, error new:0.657712
+error num:3, 4, 170.975262, error new:0.997484
+error num:3, 5, 134.634625, error new:0.998843
+error num:3, 6, 178.175756, error new:0.997989
+error num:3, 7, 244.855398, error new:0.996048
+error num:3, 8, 198.688963, error new:0.997254
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity>MVAR_ml_oneless', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 511)" style="font-weight:bold">calculate_connectivity>MVAR_ml_oneless</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',511,0)">line 511</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 206)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',206,0)">line 206</a>)
+            reg_new_test    = MVAR_ml_oneless(data, N, recon_P, indx_i, indx_j);
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 46)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',46,0)">line 46</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+cal_simu_combine

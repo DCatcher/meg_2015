@@ -1,0 +1,56 @@
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [5x5 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1]
+             mode: 1
+    small_control: 3.5000
+      report_mode: 0
+       diary_name: 'logs/log_2015     4    14    14    53    17.txt'
+
+Elapsed time is 1.967428 seconds.
+test time:1, error now:0.190191
+Elapsed time is 2.032202 seconds.
+test time:2, error now:0.195504
+Elapsed time is 1.944944 seconds.
+test time:3, error now:0.194812
+Elapsed time is 1.966285 seconds.
+test time:4, error now:0.195963
+Elapsed time is 1.965103 seconds.
+test time:5, error now:0.197177
+Elapsed time is 1.953085 seconds.
+test time:6, error now:0.196286
+Elapsed time is 1.932742 seconds.
+test time:7, error now:0.196065
+Elapsed time is 2.028050 seconds.
+test time:8, error now:0.198106
+Elapsed time is 1.935903 seconds.
+test time:9, error now:0.196219
+Elapsed time is 1.959008 seconds.
+test time:10, error now:0.194846
+Elapsed time is 1.985621 seconds.
+test time:11, error now:0.194956
+Elapsed time is 1.949300 seconds.
+test time:12, error now:0.195370
+Elapsed time is 1.962571 seconds.
+test time:13, error now:0.194315
+Elapsed time is 1.968178 seconds.
+test time:14, error now:0.193965
+Elapsed time is 1.967551 seconds.
+test time:15, error now:0.194213
+Elapsed time is 1.941934 seconds.
+test time:16, error now:0.194227
+Elapsed time is 2.001675 seconds.
+test time:17, error now:0.194768
+Elapsed time is 1.973164 seconds.
+test time:18, error now:0.193950
+Elapsed time is 1.970056 seconds.
+test time:19, error now:0.194454
+Elapsed time is 2.376306 seconds.
+test time:20, error now:0.193541
+    0.1935
+

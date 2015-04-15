@@ -1,0 +1,62 @@
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [5x5 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1]
+             mode: 1
+       diary_name: 'logs/log_2015     4    14    14    51    30.txt'
+
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.986879 seconds.
+test time:1, error now:0.194379
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 2.005863 seconds.
+test time:2, error now:0.199843
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.957014 seconds.
+test time:3, error now:0.206200
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.989659 seconds.
+test time:4, error now:0.207382
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.959781 seconds.
+test time:5, error now:0.205206
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.967025 seconds.
+test time:6, error now:0.202791
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 65)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',65,0)">line 65</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 35)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',35,0)">line 35</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+close all
+cal_simu_combine

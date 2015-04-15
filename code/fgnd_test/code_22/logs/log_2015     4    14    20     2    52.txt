@@ -1,0 +1,61 @@
+    small_control: 3
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [10x10 double]
+          recon_P: 11
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1 1 1 1 1 1]
+             mode: 1
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    14    20     2    52.txt'
+
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0
+     0     1     1     1     1     1     1     1     1     1
+
+indx now:1, error MVAR:0.768524
+nrror num:1, 1, 6160.765585, error new:0.925512
+nrror num:1, 2, 1865.078099, error new:0.947391
+nrror num:1, 3, 1594.693061, error new:0.963393
+nrror num:1, 4, 1951.733940, error new:0.943218
+nrror num:1, 5, 1932.073884, error new:0.952526
+nrror num:1, 6, 1982.398267, error new:0.950026
+nrror num:1, 7, 1579.952634, error new:0.959177
+nrror num:1, 8, 2023.885007, error new:0.945193
+nrror num:1, 9, 1995.150949, error new:0.949964
+error num:1, 10, 326.453612, error new:0.999556
+indx now:2, error MVAR:0.451280
+error num:2, 1, 182.293782, error new:0.997897
+nrror num:2, 2, 6191.451230, error new:0.717596
+error num:2, 3, 230.256981, error new:0.996867
+error num:2, 4, 156.013838, error new:0.998154
+error num:2, 5, 117.050170, error new:0.998158
+error num:2, 6, 247.652174, error new:0.997578
+error num:2, 7, 231.083296, error new:0.998267
+error num:2, 8, 226.123622, error new:0.996841
+error num:2, 9, 160.790922, error new:0.996964
+nrror num:2, 10, 1603.009216, error new:0.812063
+indx now:3, error MVAR:0.439346
+error num:3, 1, 124.330364, error new:0.996823
+error num:3, 2, 216.470479, error new:0.995262
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity>MVAR_ml_oneless', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 511)" style="font-weight:bold">calculate_connectivity>MVAR_ml_oneless</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',511,0)">line 511</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 206)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',206,0)">line 206</a>)
+            reg_new_test    = MVAR_ml_oneless(data, N, recon_P, indx_i, indx_j);
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 46)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',46,0)">line 46</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+cal_simu_combine

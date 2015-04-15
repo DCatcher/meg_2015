@@ -1,0 +1,301 @@
+    small_control: 3
+                N: 12000
+                P: 11
+            gamma: 0
+    configuration: [3x3 double]
+          recon_P: 11
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1]
+             mode: 1
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    14    16    51     2.txt'
+
+     1     0     0
+     1     1     1
+     0     0     1
+
+indx now:1, error MVAR:0.392044
+nrror num:1, 1, 12344.245826, error new:0.423763
+nrror num:1, 2, 1762.402125, error new:0.929779
+error num:1, 3, 305.333442, error new:0.997383
+indx now:2, error MVAR:0.296208
+error num:2, 1, 188.252800, error new:0.997605
+nrror num:2, 2, 12277.831196, error new:0.322137
+error num:2, 3, 145.626684, error new:0.999431
+indx now:3, error MVAR:0.421438
+error num:3, 1, 329.424109, error new:0.998259
+nrror num:3, 2, 3279.880355, error new:0.679636
+nrror num:3, 3, 12278.057438, error new:0.731798
+Elapsed time is 2.088483 seconds.
+test time:1, error now:0.053391
+indx now:1, error MVAR:0.471246
+nrror num:1, 1, 12371.865546, error new:0.599802
+nrror num:1, 2, 3383.160922, error new:0.787412
+error num:1, 3, 277.049223, error new:0.998937
+indx now:2, error MVAR:0.295410
+error num:2, 1, 335.859025, error new:0.994453
+nrror num:2, 2, 12234.366256, error new:0.251742
+error num:2, 3, 254.112534, error new:0.996814
+indx now:3, error MVAR:0.420997
+error num:3, 1, 374.069725, error new:0.995682
+nrror num:3, 2, 3314.288871, error new:0.763571
+nrror num:3, 3, 12226.754860, error new:0.739492
+Elapsed time is 2.086875 seconds.
+test time:2, error now:0.045528
+indx now:1, error MVAR:0.445037
+nrror num:1, 1, 12337.532169, error new:0.652350
+nrror num:1, 2, 3704.288901, error new:0.765038
+error num:1, 3, 262.307084, error new:0.998460
+indx now:2, error MVAR:0.197133
+error num:2, 1, 305.043347, error new:0.990514
+nrror num:2, 2, 12116.106966, error new:0.313468
+error num:2, 3, 289.753237, error new:0.988887
+indx now:3, error MVAR:0.421396
+error num:3, 1, 302.010979, error new:0.997924
+nrror num:3, 2, 3625.306928, error new:0.688119
+nrror num:3, 3, 12240.879585, error new:0.777496
+Elapsed time is 2.175401 seconds.
+test time:3, error now:0.042640
+indx now:1, error MVAR:0.383290
+nrror num:1, 1, 12353.615838, error new:0.609987
+nrror num:1, 2, 2394.023932, error new:0.806500
+error num:1, 3, 178.269297, error new:0.999251
+indx now:2, error MVAR:0.257682
+error num:2, 1, 350.861860, error new:0.989686
+nrror num:2, 2, 12182.949476, error new:0.353262
+error num:2, 3, 460.963900, error new:0.988347
+indx now:3, error MVAR:0.352176
+error num:3, 1, 359.650552, error new:0.995729
+nrror num:3, 2, 2582.639751, error new:0.813336
+nrror num:3, 3, 12230.172037, error new:0.644202
+Elapsed time is 2.016343 seconds.
+test time:4, error now:0.045021
+indx now:1, error MVAR:0.560588
+nrror num:1, 1, 12359.685566, error new:0.734145
+nrror num:1, 2, 3553.042503, error new:0.822538
+error num:1, 3, 340.160282, error new:0.998762
+indx now:2, error MVAR:0.323230
+error num:2, 1, 246.886737, error new:0.996941
+nrror num:2, 2, 12264.500120, error new:0.432408
+error num:2, 3, 233.672805, error new:0.995969
+indx now:3, error MVAR:0.450090
+error num:3, 1, 373.363303, error new:0.997536
+nrror num:3, 2, 3248.303502, error new:0.778535
+nrror num:3, 3, 12280.399973, error new:0.773868
+Elapsed time is 2.078492 seconds.
+test time:5, error now:0.044637
+indx now:1, error MVAR:0.423212
+nrror num:1, 1, 12323.543021, error new:0.641455
+nrror num:1, 2, 2984.548373, error new:0.801472
+error num:1, 3, 449.391379, error new:0.996734
+indx now:2, error MVAR:0.361685
+error num:2, 1, 277.259599, error new:0.997934
+nrror num:2, 2, 12365.805030, error new:0.364280
+error num:2, 3, 397.163684, error new:0.996190
+indx now:3, error MVAR:0.464421
+error num:3, 1, 408.916966, error new:0.997569
+nrror num:3, 2, 2941.660158, error new:0.794992
+nrror num:3, 3, 12323.337557, error new:0.666499
+Elapsed time is 2.095453 seconds.
+test time:6, error now:0.045307
+indx now:1, error MVAR:0.417021
+nrror num:1, 1, 12222.912642, error new:0.703586
+nrror num:1, 2, 3433.614768, error new:0.703695
+error num:1, 3, 302.294280, error new:0.998494
+indx now:2, error MVAR:0.268654
+error num:2, 1, 374.143880, error new:0.991295
+nrror num:2, 2, 12189.176372, error new:0.410889
+error num:2, 3, 274.143440, error new:0.995269
+indx now:3, error MVAR:0.448766
+error num:3, 1, 217.627312, error new:0.999261
+nrror num:3, 2, 3383.572905, error new:0.740720
+nrror num:3, 3, 12303.334587, error new:0.718931
+Elapsed time is 2.071765 seconds.
+test time:7, error now:0.043517
+indx now:1, error MVAR:0.424963
+nrror num:1, 1, 12187.304963, error new:0.795111
+nrror num:1, 2, 3639.796463, error new:0.648340
+error num:1, 3, 319.449176, error new:0.997349
+indx now:2, error MVAR:0.303269
+error num:2, 1, 280.215013, error new:0.996504
+nrror num:2, 2, 12270.380145, error new:0.337283
+error num:2, 3, 344.665860, error new:0.994630
+indx now:3, error MVAR:0.362614
+error num:3, 1, 364.278653, error new:0.996331
+nrror num:3, 2, 2523.775344, error new:0.802573
+nrror num:3, 3, 12288.999803, error new:0.596838
+Elapsed time is 2.011866 seconds.
+test time:8, error now:0.043547
+indx now:1, error MVAR:0.378139
+nrror num:1, 1, 12276.446433, error new:0.561195
+nrror num:1, 2, 2375.555393, error new:0.818980
+error num:1, 3, 211.539803, error new:0.999190
+indx now:2, error MVAR:0.335172
+error num:2, 1, 341.877068, error new:0.995621
+nrror num:2, 2, 12306.096406, error new:0.301811
+error num:2, 3, 246.279808, error new:0.997119
+indx now:3, error MVAR:0.497920
+error num:3, 1, 495.459830, error new:0.996332
+nrror num:3, 2, 3710.760270, error new:0.792392
+nrror num:3, 3, 12370.978738, error new:0.675336
+Elapsed time is 2.106107 seconds.
+test time:9, error now:0.041866
+indx now:1, error MVAR:0.428813
+nrror num:1, 1, 12271.365266, error new:0.719930
+nrror num:1, 2, 3574.069200, error new:0.759869
+error num:1, 3, 282.079763, error new:0.998732
+indx now:2, error MVAR:0.387240
+error num:2, 1, 462.938155, error new:0.995060
+nrror num:2, 2, 12391.120932, error new:0.340065
+error num:2, 3, 449.648509, error new:0.993018
+indx now:3, error MVAR:0.467231
+error num:3, 1, 242.302620, error new:0.999311
+nrror num:3, 2, 3214.506765, error new:0.758989
+nrror num:3, 3, 12329.233850, error new:0.721795
+Elapsed time is 2.102842 seconds.
+test time:10, error now:0.041234
+indx now:1, error MVAR:0.362166
+nrror num:1, 1, 12177.823735, error new:0.771605
+nrror num:1, 2, 3455.385225, error new:0.614777
+error num:1, 3, 325.668410, error new:0.996596
+indx now:2, error MVAR:0.307211
+error num:2, 1, 252.539813, error new:0.997608
+nrror num:2, 2, 12270.756971, error new:0.355586
+error num:2, 3, 406.070607, error new:0.991711
+indx now:3, error MVAR:0.467151
+error num:3, 1, 269.680719, error new:0.998895
+nrror num:3, 2, 3623.593059, error new:0.742065
+nrror num:3, 3, 12278.635697, error new:0.683777
+Elapsed time is 2.093429 seconds.
+test time:11, error now:0.040546
+indx now:1, error MVAR:0.435772
+nrror num:1, 1, 12219.373277, error new:0.779172
+nrror num:1, 2, 3450.153899, error new:0.715545
+error num:1, 3, 248.493468, error new:0.999437
+indx now:2, error MVAR:0.312997
+error num:2, 1, 221.674840, error new:0.997922
+nrror num:2, 2, 12310.253664, error new:0.277632
+error num:2, 3, 345.230482, error new:0.994338
+indx now:3, error MVAR:0.420650
+error num:3, 1, 361.034839, error new:0.996824
+nrror num:3, 2, 2859.182800, error new:0.758208
+nrror num:3, 3, 12250.451489, error new:0.789246
+Elapsed time is 2.048875 seconds.
+test time:12, error now:0.040418
+indx now:1, error MVAR:0.345532
+nrror num:1, 1, 12229.631457, error new:0.695241
+nrror num:1, 2, 2319.889724, error new:0.772523
+error num:1, 3, 487.994894, error new:0.992972
+indx now:2, error MVAR:0.308038
+error num:2, 1, 284.815339, error new:0.996378
+nrror num:2, 2, 12299.513468, error new:0.277140
+error num:2, 3, 222.204702, error new:0.998123
+indx now:3, error MVAR:0.384141
+error num:3, 1, 346.867465, error new:0.995673
+nrror num:3, 2, 2842.501360, error new:0.711749
+nrror num:3, 3, 12254.193657, error new:0.685955
+Elapsed time is 2.059257 seconds.
+test time:13, error now:0.040642
+indx now:1, error MVAR:0.454021
+nrror num:1, 1, 12319.910738, error new:0.632383
+nrror num:1, 2, 3662.509224, error new:0.782157
+error num:1, 3, 309.887716, error new:0.998277
+indx now:2, error MVAR:0.257161
+error num:2, 1, 349.086027, error new:0.992675
+nrror num:2, 2, 12203.122767, error new:0.313459
+error num:2, 3, 293.387131, error new:0.997209
+indx now:3, error MVAR:0.404751
+error num:3, 1, 298.497538, error new:0.996983
+nrror num:3, 2, 3219.860827, error new:0.691552
+nrror num:3, 3, 12254.737498, error new:0.712258
+Elapsed time is 2.084477 seconds.
+test time:14, error now:0.041001
+indx now:1, error MVAR:0.376652
+nrror num:1, 1, 12148.620963, error new:0.816916
+nrror num:1, 2, 3612.580652, error new:0.563275
+error num:1, 3, 264.198559, error new:0.998304
+indx now:2, error MVAR:0.412985
+error num:2, 1, 372.319924, error new:0.996747
+nrror num:2, 2, 12452.746814, error new:0.405361
+error num:2, 3, 227.625380, error new:0.999673
+indx now:3, error MVAR:0.382539
+error num:3, 1, 290.100665, error new:0.997285
+nrror num:3, 2, 3245.454669, error new:0.662852
+nrror num:3, 3, 12199.653859, error new:0.770405
+Elapsed time is 2.104869 seconds.
+test time:15, error now:0.040883
+indx now:1, error MVAR:0.338811
+nrror num:1, 1, 12214.371768, error new:0.599014
+nrror num:1, 2, 2330.074643, error new:0.814502
+error num:1, 3, 563.699195, error new:0.988552
+indx now:2, error MVAR:0.309378
+error num:2, 1, 296.503613, error new:0.996215
+nrror num:2, 2, 12272.998474, error new:0.343155
+error num:2, 3, 404.703024, error new:0.991139
+indx now:3, error MVAR:0.498384
+error num:3, 1, 203.875367, error new:0.999390
+nrror num:3, 2, 3973.655758, error new:0.717614
+nrror num:3, 3, 12286.013845, error new:0.723110
+Elapsed time is 2.108722 seconds.
+test time:16, error now:0.040691
+indx now:1, error MVAR:0.470502
+nrror num:1, 1, 12343.329126, error new:0.777026
+nrror num:1, 2, 4066.885538, error new:0.697735
+error num:1, 3, 303.571893, error new:0.999200
+indx now:2, error MVAR:0.273680
+error num:2, 1, 315.515611, error new:0.995947
+nrror num:2, 2, 12234.522155, error new:0.361106
+error num:2, 3, 267.112725, error new:0.996539
+indx now:3, error MVAR:0.430793
+error num:3, 1, 279.417695, error new:0.998496
+nrror num:3, 2, 3106.519128, error new:0.759723
+nrror num:3, 3, 12219.997084, error new:0.777785
+Elapsed time is 2.098704 seconds.
+test time:17, error now:0.040537
+indx now:1, error MVAR:0.313397
+nrror num:1, 1, 12140.647246, error new:0.713867
+nrror num:1, 2, 2391.063565, error new:0.757855
+error num:1, 3, 377.937638, error new:0.994984
+indx now:2, error MVAR:0.313137
+error num:2, 1, 290.269181, error new:0.996972
+nrror num:2, 2, 12303.108588, error new:0.287986
+error num:2, 3, 277.665786, error new:0.996022
+indx now:3, error MVAR:0.412107
+error num:3, 1, 343.771756, error new:0.997061
+nrror num:3, 2, 3693.577184, error new:0.681160
+nrror num:3, 3, 12213.969671, error new:0.789278
+Elapsed time is 2.135953 seconds.
+test time:18, error now:0.040592
+indx now:1, error MVAR:0.432518
+nrror num:1, 1, 12263.179248, error new:0.724060
+nrror num:1, 2, 3678.667282, error new:0.732816
+error num:1, 3, 310.556693, error new:0.996636
+indx now:2, error MVAR:0.256910
+error num:2, 1, 266.812877, error new:0.994180
+nrror num:2, 2, 12162.591930, error new:0.374120
+error num:2, 3, 304.031442, error new:0.994630
+indx now:3, error MVAR:0.448786
+error num:3, 1, 209.764502, error new:0.999204
+nrror num:3, 2, 2806.931514, error new:0.831265
+nrror num:3, 3, 12299.684380, error new:0.656932
+Elapsed time is 2.057059 seconds.
+test time:19, error now:0.040759
+indx now:1, error MVAR:0.352530
+nrror num:1, 1, 12180.361533, error new:0.744357
+nrror num:1, 2, 3194.456149, error new:0.659166
+error num:1, 3, 245.895930, error new:0.997049
+indx now:2, error MVAR:0.411435
+error num:2, 1, 298.468697, error new:0.997574
+nrror num:2, 2, 12411.641213, error new:0.407120
+error num:2, 3, 174.597052, error new:0.999181
+indx now:3, error MVAR:0.480739
+error num:3, 1, 435.016847, error new:0.997079
+nrror num:3, 2, 3972.457554, error new:0.722304
+nrror num:3, 3, 12314.431461, error new:0.656049
+Elapsed time is 2.088969 seconds.
+test time:20, error now:0.040358
+    0.0404
+

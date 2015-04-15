@@ -4,3 +4,4 @@ tmp_*.m
 *.asv
 computeError.m
 *.bin
+*.zip

@@ -1,0 +1,327 @@
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [25x25 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+       diary_name: 'logs/log_2015     4    14    14    19     8.txt'
+
+test time:1
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 99.518486 seconds.
+test time:2
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 100.266949 seconds.
+test time:3
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 105.472741 seconds.
+test time:4
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 100.219804 seconds.
+test time:5
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 107.854074 seconds.
+test time:6
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 105.361503 seconds.
+test time:7
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 106.234681 seconds.
+test time:8
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 116.324575 seconds.
+test time:9
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+indx now:25
+Elapsed time is 115.270855 seconds.
+test time:10
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+indx now:6
+indx now:7
+indx now:8
+indx now:9
+indx now:10
+indx now:11
+indx now:12
+indx now:13
+indx now:14
+indx now:15
+indx now:16
+indx now:17
+indx now:18
+indx now:19
+indx now:20
+indx now:21
+indx now:22
+indx now:23
+indx now:24
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('regress', 'D:\Program files\MATLAB\R2013b\toolbox\stats\stats\regress.m', 75)" style="font-weight:bold">regress</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\stats\stats\regress.m',75,0)">line 75</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity>MVAR_ml', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 392)" style="font-weight:bold">calculate_connectivity>MVAR_ml</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',392,0)">line 392</a>)
+[reg_cal1, BINT, R_cal]  = regress(sig_en_part1, sig_st_part);
+
+In <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 143)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',143,0)">line 143</a>)
+    A_tmp   = MVAR_ml(data, N, recon_P, indx_i);
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 35)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',35,0)">line 35</a>)
+    [params.data, params.arSig, params.arNoise, params.x_sig, params.x_noise, params.sigLevel,
+    params.noiseLevel]=simulateOneRun(params.N, params.P, params.gamma, params.configuration, params);
+} 
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('matlab.desktop.editor.Document>@(file)jea.openEditor(file)', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\+matlab\+desktop\+editor\@Document\Document.m', 264)" style="font-weight:bold">matlab.desktop.editor.Document>@(file)jea.openEditor(file)</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\+matlab\+desktop\+editor\@Document\Document.m',264,0)">line
+264</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('matlab.desktop.editor.Document>openEditorViaFunction', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\+matlab\+desktop\+editor\@Document\Document.m', 912)" style="font-weight:bold">matlab.desktop.editor.Document>openEditorViaFunction</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\+matlab\+desktop\+editor\@Document\Document.m',912,0)">line 912</a>)
+    javaEditor = openMethod(javaFile);
+
+In <a href="matlab:helpUtils.errorDocCallback('matlab.desktop.editor.Document.openEditor', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\+matlab\+desktop\+editor\@Document\Document.m', 264)" style="font-weight:bold">matlab.desktop.editor.Document.openEditor</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\+matlab\+desktop\+editor\@Document\Document.m',264,0)">line 264</a>)
+            obj = openEditorViaFunction(filename, @(file)jea.openEditor(file), false);
+
+In <a href="matlab:helpUtils.errorDocCallback('edit>openEditor', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\edit.m', 231)" style="font-weight:bold">edit>openEditor</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\edit.m',231,0)">line 231</a>)
+                matlab.desktop.editor.Document.openEditor(file);
+
+In <a href="matlab:helpUtils.errorDocCallback('edit>openWithFileSystem', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\edit.m', 464)" style="font-weight:bold">edit>openWithFileSystem</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\edit.m',464,0)">line 464</a>)
+    openEditor(pathName);
+
+In <a href="matlab:helpUtils.errorDocCallback('edit', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\edit.m', 51)" style="font-weight:bold">edit</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\codetools\edit.m',51,0)">line 51</a>)
+                        if ~openWithFileSystem(argName, ~isSimpleFile(argName))
+
+In <a href="matlab:helpUtils.errorDocCallback('openm', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\general\private\openm.m', 12)" style="font-weight:bold">openm</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\general\private\openm.m',12,0)">line 12</a>)
+edit(filename)
+
+In <a href="matlab:helpUtils.errorDocCallback('open', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\general\open.m', 159)" style="font-weight:bold">open</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\general\open.m',159,0)">line 159</a>)
+            feval(openAction,fullpath);
+
+In <a href="matlab:helpUtils.errorDocCallback('uiopen', 'D:\Program files\MATLAB\R2013b\toolbox\matlab\uitools\uiopen.m', 167)" style="font-weight:bold">uiopen</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\matlab\uitools\uiopen.m',167,0)">line 167</a>)
+            open(fn);
+} 
+sum_errors
+
+sum_errors =
+
+   Inf
+
+cal_simu_combine

@@ -1,0 +1,44 @@
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [5x5 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1]
+             mode: 1
+       diary_name: 'logs/log_2015     4    14    14    51    11.txt'
+
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.973768 seconds.
+test time:1, error now:0.207086
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.946781 seconds.
+test time:2, error now:0.214964
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.952504 seconds.
+test time:3, error now:0.213131
+indx now:1
+indx now:2
+indx now:3
+indx now:4
+indx now:5
+Elapsed time is 1.951960 seconds.
+test time:4, error now:0.212666
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 38)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',38,0)">line 38</a>)
+
+} 
+cal_simu_combine

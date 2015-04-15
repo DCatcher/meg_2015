@@ -1,0 +1,31 @@
+                N: 6000
+                P: 11
+            gamma: 0
+    configuration: [25x25 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+       diary_name: 'logs/log_2015     4    13    11    11    52.txt'
+
+test time:1
+indx pair: (1, 2)
+indx pair: (1, 3)
+indx pair: (1, 4)
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('regress', 'D:\Program files\MATLAB\R2013b\toolbox\stats\stats\regress.m', 75)" style="font-weight:bold">regress</a> (<a href="matlab: opentoline('D:\Program files\MATLAB\R2013b\toolbox\stats\stats\regress.m',75,0)">line 75</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity>MVAR', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 354)" style="font-weight:bold">calculate_connectivity>MVAR</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',354,0)">line 354</a>)
+[reg_cal2, BINT, R_cal]  = regress(sig_en_part2, sig_st_part);
+
+In <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 100)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',100,0)">line 100</a>)
+        A_tmp       = MVAR(data, N, recon_P, indx_i, indx_j);
+
+In <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 33)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',33,0)">line 33</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+clear
+close all
+clc
+exit

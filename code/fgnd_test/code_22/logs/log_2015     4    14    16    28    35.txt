@@ -1,0 +1,32 @@
+    small_control: 3
+                N: 12000
+                P: 11
+            gamma: 0
+    configuration: [3x3 double]
+          recon_P: 40
+           num_st: 3
+           num_en: 1
+        watch_len: 1500
+       innovation: [1 1 1]
+             mode: 1
+      report_mode: 1
+            delta: 1
+       diary_name: 'logs/log_2015     4    14    16    28    35.txt'
+
+     1     0     0
+     1     1     1
+     0     0     1
+
+indx now:1, error MVAR:0.398715
+{Subscripted assignment dimension mismatch.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity>MVAR_ml_oneless', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 507)" style="font-weight:bold">calculate_connectivity>MVAR_ml_oneless</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',507,0)">line 507</a>)
+    sig_st_part(indx_i, :)     = tmp_formx;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('calculate_connectivity', 'd:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m', 202)" style="font-weight:bold">calculate_connectivity</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\calculate_connectivity.m',202,0)">line 202</a>)
+            reg_new_test    = MVAR_ml_oneless(data, N, recon_P, indx_i, indx_j);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('cal_simu_combine', 'd:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m', 40)" style="font-weight:bold">cal_simu_combine</a> (<a href="matlab: opentoline('d:\matlab2012a\meg\code\fgnd_test\code_22\cal_simu_combine.m',40,0)">line 40</a>)
+    recon_errors    = calculate_connectivity(params);
+} 
+cal_simu_combine
