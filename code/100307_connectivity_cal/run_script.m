@@ -1,0 +1,10 @@
+% cal_con_onedire_to_anodire('100307_all_sig_100', '100307_conn_x_100', 1)
+% cal_con_onedire_to_anodire('100307_all_sig_100', '100307_conn_y_100', 2)
+% cal_con_onedire_to_anodire('100307_all_sig_100', '100307_conn_z_100', 3)
+% cal_con_onedire_to_anodire('100307_all_sig_200', '100307_conn_x_200', 1)
+% cal_con_onedire_to_anodire('100307_all_sig_200', '100307_conn_y_200', 2)
+% cal_con_onedire_to_anodire('100307_all_sig_200', '100307_conn_z_200', 3)
+
+cal_con_onedire_to_anodire('100307_all_sig_Resting_4', '100307_Resting_4_conn_x', 1)
+cal_con_onedire_to_anodire('100307_all_sig_Resting_4_100', '100307_Resting_4_conn_x_100', 1)
+cal_con_onedire_to_anodire('100307_all_sig_Resting_4_200', '100307_Resting_4_conn_x_200', 1)

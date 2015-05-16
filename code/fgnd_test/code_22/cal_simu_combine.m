@@ -5,7 +5,7 @@ test_len    = 20;
 
 params  = struct();
 
-neuron_num  = 12;
+neuron_num  = 10;
 % neuron_num  = 20;
 % sparsity    = 0.5;
 params.small_control    = 3;
@@ -15,15 +15,18 @@ params.gamma            = 0;
 % params.configuration    = [1,1,1,1;1,1,1,1;1,1,1,1;1,1,1,1];
 % params.configuration    = ones(neuron_num, neuron_num);
 % params.configuration    = double(rand(neuron_num, neuron_num) < sparsity);
-% params.configuration    = [1,0,0;1,1,1;0,0,1];
+params.configuration    = [1,0,0;0,1,0;1,1,1];
 % params.configuration    = [1,0,0,0;1,1,0,1;1,0,1,1;0,0,0,1];
 
-params.configuration    = eye(neuron_num);
-for indx_i=2:neuron_num-1
-    params.configuration(indx_i, 1)     = 1;
-    
-    params.configuration(indx_i, neuron_num)     = 1;
-end
+% params.configuration    = eye(neuron_num);
+% for indx_i=2:neuron_num-1
+%     params.configuration(indx_i, 1)     = 1;
+%     
+%     params.configuration(indx_i, neuron_num)     = 1;
+% end
+
+% params.configuration(1, neuron_num) =1;
+% params.configuration(neuron_num, 1) =1;
 
 % params.configuration    = zeros(neuron_num, neuron_num);
 % params.configuration(:,1)   = 1;
@@ -36,7 +39,7 @@ params.num_en           = neuron_num;
 params.watch_len        = 1500;
 % params.innovation       = [1,1,1,1,1,1];
 params.innovation       = ones(1, neuron_num);
-params.mode             = 1; %0 is 2-2, 1 is MVAR.
+params.mode             = 2; %0 is 2-2, 1 is MVAR, 2 is special test.
 params.report_mode      = 0;
 params.watch_error_mode = 1;
 

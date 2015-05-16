@@ -134,13 +134,19 @@ if params.mode==0
             if sum(abs(f_ori_tmp))>params.delta
                 all_error(end+1)    = sum(abs(abs(f_ori_tmp) - abs(f_com_tmp)))/sum_ori_tmp;
                 if all_error(end)>1
-                    fprintf('error num:%i, %i, %f, %f\n', indx_i, indx_j, sum_ori_tmp, sum_com_tmp);
+                    if params.report_mode==1
+                        fprintf('error num:%i, %i, %f, %f\n', indx_i, indx_j, sum_ori_tmp, sum_com_tmp);
+                    end
                 else
-                    fprintf('standard connection:%f, error now:%f\n', sum_ori_tmp, all_error(end));
+                    if params.report_mode==1
+                        fprintf('standard connection:%f, error now:%f\n', sum_ori_tmp, all_error(end));
+                    end
                     all_standrad(end+1)     = sum_ori_tmp;
                 end              
             else
-                fprintf('error num:%i, %i, %f\n', indx_i, indx_j, sum_com_tmp);
+                if params.report_mode==1
+                    fprintf('error num:%i, %i, %f\n', indx_i, indx_j, sum_com_tmp);
+                end
             end
             
             if indx_i==params.num_st && indx_j==params.num_en
@@ -227,8 +233,10 @@ if params.mode==0
     end
 
     toc;
-else
+elseif params.mode==1
 
+    A_again     = zeros(size(A));
+    
     tic
     for indx_i=1:num_neuron
         [A_tmp, MVAR_error]   = MVAR_ml(data, N, recon_P, indx_i);
@@ -240,6 +248,8 @@ else
             f_ori_tmp   = reshape(A(indx_j,indx_i, :), 1, N);
             f_com_tmp   = A_tmp(indx_j, :);
             
+            A_again(indx_j, indx_i, :)  = reshape(A_tmp(indx_j, :), 1, 1, N);
+            
             sum_ori_tmp     = sum(abs(f_ori_tmp));
             sum_com_tmp     = sum(abs(f_com_tmp));
             
@@ -249,8 +259,9 @@ else
                 if params.report_mode==1
                     fprintf('nrror num:%i, %i, %f, error new:%f\n', indx_i, indx_j, sum_com_tmp, reg_new_test/MVAR_error);
                 end
-                
-                all_standrad(end+1)     = sum_ori_tmp;
+                if indx_i~=indx_j
+                    all_standrad(end+1)     = sum_ori_tmp;
+                end
             else
                 if params.report_mode==1
                     fprintf('error num:%i, %i, %f, error new:%f\n', indx_i, indx_j, sum_com_tmp, reg_new_test/MVAR_error);
@@ -263,13 +274,53 @@ else
         end
     end
     
+    G_again     = zeros(size(G));
+    
+    for i=1:N
+        G_again(:,:,i)  =inv(A_again(:,:,i));
+    end
+    
+    new_watch_sum       = [];
+    new_all_standrad    = [];
+    new_watch_sum(end+1)    = sum(abs(G_again(params.num_st, params.num_en, :)));
+    new_watch_sum(end+1)    = sum(abs(G_again(params.num_en, params.num_st, :)));
+    
+    for indx_i=1:num_neuron
+        for indx_j=1:num_neuron
+            if indx_i==indx_j
+                continue;
+            end
+            
+            if params.configuration(indx_i, indx_j)==0
+                continue;
+            end
+            
+            sum_tmp     = sum(abs(G_again(indx_i, indx_j, :)));
+            new_all_standrad(end+1)     = sum_tmp;
+        end
+    end
+    
     if params.watch_error_mode==0
         recon_errors    = mean(all_error);
     else
+%         recon_errors    = mean(new_watch_sum)/mean(new_all_standrad);
         recon_errors    = mean(watch_sum)/mean(all_standrad);
+        
     end
     toc
-end    
+elseif  params.mode==2
+    mat_reg_1   = MVAR_2to1(data, N, recon_P, 1, 1,2);
+    mat_reg_2   = MVAR_2to1(data, N, recon_P, 3, 1,2);
+    
+    subplot(2,1,1);
+    comp_1  = mat_reg_1(2, :);
+    plot(abs(comp_1));
+    subplot(2,1,2);
+    comp_2  = mat_reg_2(2, :).*(reshape(f_connectivity(3, 1, :), 1, N)); 
+    plot(abs(comp_2));
+    
+    recon_errors    = sum(abs(comp_1) - abs(comp_2))/sum(abs(comp_1));
+end
 % 
 % A12=MVAR(data,N,20,1,2);
 % A13=MVAR(data,N,20,1,3);
@@ -490,6 +541,31 @@ mat_reg(2,1,:)  = reshape(-fft(l_reg_cal(2,:)),1,1,N);
 mat_reg(2,2,:)  = reshape(1-fft(l_reg_cal(4,:)),1,1,N);
 
 end
+
+function mat_reg =MVAR_2to1(data,N,recon_P,num_en, num_1,num_2)
+sig_en_part     = data(recon_P+1:N, num_en);%%%%%%%%%%data(recon_P+1:N, num_en)
+sig_st_part     = zeros(N-recon_P, recon_P*2);
+
+for indx_i=1:N-recon_P
+    sig_st_part(indx_i, :)     = [data(indx_i:indx_i+recon_P-1, num_1)',data(indx_i:indx_i+recon_P-1, num_2)'];
+end
+
+% disp(size(sig_en_part1));
+% disp(size(sig_en_part2));
+% disp(size(sig_st_part));
+[reg_cal, BINT, R_cal]  = regress(sig_en_part, sig_st_part);
+reg_cal = reg_cal(end:-1:1)';%2,1
+reg_11  = [0,reg_cal(recon_P+1:end)];
+reg_21  = [0,reg_cal(1:recon_P)];
+
+l_reg_cal = zeros(2, N);
+l_reg_cal(1,1:recon_P+1)  = reg_11;
+l_reg_cal(2,1:recon_P+1)  = reg_21;
+mat_reg(1, :)  = reshape(fft(l_reg_cal(1,:)),1,N);
+mat_reg(2, :)  = reshape(fft(l_reg_cal(2,:)),1,N);
+
+end
+
 
 function [mat_reg, reg_error] =MVAR_ml(data,N,recon_P,num_1)
 sig_en_part1     = data(recon_P+1:N, num_1);%%%%%%%%%%data(recon_P+1:N, num_en)

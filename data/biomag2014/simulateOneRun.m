@@ -29,9 +29,9 @@ function data=simulateOneRun(N,P,gamma,configuraton)
 
 M=length(configuraton);
 
-% for i=1:M;
-%     configuraton(i,i)=1;
-% end
+for i=1:M;
+    configuraton(i,i)=1;
+end
 
 sSignal=1-gamma;
 sNoise=gamma;
