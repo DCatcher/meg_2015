@@ -1,15 +1,7 @@
-function compress_indx(input_mne, output_file, compress_num, compress_dist, input_list_label, brain_rg, brain_rg_file)
+function compress_indx(input_mne, output_file, compress_num, compress_dist, input_list_label)
 
 if nargin < 5
     input_list_label    = 0;
-end
-
-if nargin < 6
-    brain_rg            = 0;
-end
-
-if nargin < 7
-    brain_rg_file       = '';
 end
 
 if input_list_label==0
@@ -23,10 +15,6 @@ else
         load(tmp_read_name);
         pos_mat     = [pos_mat, source.pos];
     end
-end
-
-if brain_rg==1
-    load(brain_rg_file);
 end
 
 num_neuron  = length(pos_mat);
@@ -66,7 +54,7 @@ for indx_i=1:num_neuron
         
         if input_list_label==0
             if sort_result(indx_j)>compress_dist
-                continue;
+                break;
             end
         end
         
@@ -87,15 +75,9 @@ for indx_i=1:num_neuron
             end
             
             if wrong_flag==1
-                continue;
+                break;
             end
             
-        end
-        
-        if brain_rg==1
-            if atlas.parcellation2(indx_i)~=atlas.parcellation2(now_indx)
-                continue;
-            end
         end
         
         compress_label(now_indx)    = 1;
